@@ -25,7 +25,7 @@ LOCALE_DEVELOPMENT_MODE=true
 /my-corteza/my-locale/src/readme.txt
 此文件，是本人部署Corteza时，遇到的坑、翻译时用到的工具及参考链接。
 
-所有疑问，可以微信或邮箱联系。
+有疑问，可以微信或邮箱联系。
 微信：1278493814
 邮箱：1278493814@qq.com
 
