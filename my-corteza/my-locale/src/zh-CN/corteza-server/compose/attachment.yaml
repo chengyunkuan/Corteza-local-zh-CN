@@ -1,0 +1,26 @@
+errors:
+  failedToExtractMimeType: 无法提取 MIME 类型
+  failedToProcessImage: 无法处理图像
+  failedToStoreFile: 无法提取存储文件
+  invalidID: 无效的 ID
+  invalidModuleID: 无效的模块 ID
+  invalidNamespaceID: 无效的命名空间 ID
+  invalidPageID: 无效的页面 ID
+  invalidRecordID: 无效的记录 ID
+  moduleNotFound: 未找到模块
+  namespaceNotFound: 未找到命名空间
+  notAllowedToCreate: 不允许创建附件
+  notAllowedToCreateEmptyAttachment: 不允许创建空附件
+  notAllowedToCreateRecords: 不允许创建记录
+  notAllowedToListAttachments: 不允许列出附件
+  notAllowedToRead: 不允许读取此模块
+  notAllowedToReadNamespace: 不允许读取这个命名空间
+  notAllowedToReadPage: 不允许阅读此页面
+  notAllowedToReadRecord: 不允许读取此记录
+  notAllowedToSearch: 不允许搜索或列出模块
+  notAllowedToUpdateNamespace: 不允许更新这个命名空间
+  notAllowedToUpdatePage: 不允许更新此页面
+  notAllowedToUpdateRecord: 不允许更新此记录
+  notFound: 找不到附件
+  pageNotFound: 找不到页面
+  recordNotFound: 未找到记录

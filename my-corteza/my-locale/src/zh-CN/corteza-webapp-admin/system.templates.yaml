@@ -1,0 +1,72 @@
+editor:
+  content:
+    editor:
+      unsupported: 不支持的编辑器
+    partial: 部分模板
+    preview:
+      html: 预览 HTML
+      pdf: 预览PDF
+      title: 预览输出
+    title: 模板内容
+    toolbox:
+      partials: 部分
+      samples:
+        defaultHTML: 默认 HTML
+        label: 样品
+      snippets:
+        funcCall: 调用一个函数
+        interpolate: 插值
+        iterator: 迭代一个集合
+        label: 片段
+      title: 工具箱
+  info:
+    contentType:
+      text_html: HTML
+      text_plain: 纯文本
+    createdAt: 创建于
+    delete: 删除
+    deletedAt: 删除于
+    handle: 句柄
+    placeholder-handle: 句柄（a - z，0 - 9，下划线，破折号）
+    invalid-handle-characters: 应至少有 2 个字符长并以字母开头。只能包含字母、数字、破折号、下划线和点
+    meta:
+      description: 描述
+      short: 简称
+    partial: 部分模板
+    partialDescription: 部分模板可以在其他模板中使用，例如页眉和页脚。部分模板不能单独使用。
+    title: 基本信息
+    type: 模板类型
+    undelete: 取消删除
+    updatedAt: 更新于
+  new: 新
+  permissions: 权限
+  title:
+    create: 创建模板
+    edit: 编辑模板
+list:
+  columns:
+    actions: ""
+    createdAt: 已创建
+    handle: Handle
+    language: 语言
+    meta:
+      short: 简称
+  filterForm:
+    deleted:
+      label: 已删除的模板
+    excluded:
+      label: 没有
+    exclusive:
+      label: 只有
+    handle:
+      label: 过滤模板列表
+      placeholder: 按句柄过滤模板
+    inclusive:
+      label: 包括
+  loading: 加载模板
+  new: 新
+  numFound: '{{count}} 个模板找到'
+  numFound_plural: '找到 {{count}} 个模板'
+  permissions: 权限
+  title: Templates
+  yaml: YAML

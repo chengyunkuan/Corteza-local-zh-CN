@@ -1,0 +1,65 @@
+editor:
+  generate:
+    body: '{{ userLabel }} 正在向您发送 Corteza Federated Network 的邀请。要开始在组织之间共享数据，请转至 Corteza 应用程序的管理面板，单击“ederation”并选择右上角的“air 联合网络”。复制下面的链接并等待另一位管理员的确认。'
+    description: 要将您的组织添加到 联合网络，请发送电子邮件邀请或与其他组织的管理员共享以下链接。
+    hello: 你好,
+    invitation: 联合网络的邀请
+    kindRegards: 亲切的问候， Corteza 团队。
+    notGenerated: 未生成链接
+    sendEmail: 发送电子邮件
+    subject: '主题：'
+  generateUri: 生成联合链接
+  info:
+    createdAt: 创建于
+    delete: 删除
+    deletedAt: 删除于
+    email: 管理员邮箱
+    enabled: 启用
+    name: 服务器名称
+    status: 状态
+    tags:
+      label: 标签
+      placeholder: +添加
+    title: 基本信息
+    undelete: 取消删除
+    updatedAt: 取消删除
+    url: 服务器地址URL
+  title:
+    create: 创建联合节点
+    edit: 编辑联合节点
+list:
+  columns:
+    actions: ""
+    createdAt: 创建于
+    enabled: 启用
+    name: 姓名
+    status: 状态
+    tags: ""
+  filterForm:
+    query:
+      label: 过滤服务器列表
+      placeholder: 按名称过滤服务器
+  loading: 加载服务器
+  new: 新
+  numFound: '{{count}} 个服务器找到'
+  numFound_plural: '{{count}} 个服务器找到'
+  pair:
+    confirm: 确认
+    label: 配对联合节点
+    networkEstablished: 联邦网络将在另一个 Corteza 联合节点的管理员最终确认后建立
+    note: '注意：'
+    status:
+      confirmPending:
+        description: |-
+          {{ email }} 接受 {{ name }} 加入联合网络的邀请?
+           Click on {{confirm}}?开始共享数据。
+        descriptionNoMail: |-
+         管理员{{ name }}接受了加入联邦网络的邀请。
+          点击{{ confirm }}?开始共享数据
+      none:
+        description: 要将您的组织与联合网络配对，请在下方粘贴另一个组织的生成 URL。
+      pending:
+        description: 配对成功，待管理员最终确认
+  title: 联合网络
+  yaml: YAML
+

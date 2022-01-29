@@ -1,0 +1,105 @@
+automation:
+  add: 添加脚本
+  edit:
+    asyncHelp: 不要等待结果并忽略错误。与临界标志不兼容。
+    asyncLabel: 异步运行这个脚本
+    codeTabLabel: 代码
+    criticalHelp: 等到这个脚本被执行。如果出现错误，中止其他脚本的执行和 before* 触发器
+    criticalLabel: 关键脚本
+    delete: 删除脚本
+    enabledHelp: 禁用的脚本将被忽略
+    enabledLabel: 启用
+    mailAutomationTriggers:
+      addMatcher: 添加条件
+      addTrigger: 添加触发器
+      delete: 删除触发器
+      deleteTrigger: 删除
+      enable: 启用触发器
+      matchAll: 必须匹配所有条件
+      matcher:
+        fields:
+          bcc: 密件抄送
+          cc: 抄送
+          from: 来自
+          placeholder: 邮件头字段
+          replyTo: 回复
+          subject: 主题
+          to: 至
+        match: 要匹配的
+        operators:
+          equal-ci: 完全匹配
+          placeholder: 运算符
+          prefix-ci: 匹配前缀
+          regex: 正则
+          suffix-ci: 匹配后缀
+          user: 现有用户
+      tabLabel: 邮件触发器
+    nameLabel: 名称
+    namePlaceholder: 自动化脚本名称
+    runAsCurrentUser: 以 "{{ user }}" 身份运行
+    runAsHelp: 脚本运行器
+    scheduledTriggers:
+      tabLabel: Scheduled
+    securityLabel: 安全
+    settingsTabLabel: 设置
+    timeoutHelp: 在中止脚本之前我们要等待多长时间？以毫秒为单位的值（1000 毫秒 = 1 秒）。默认（0 时）为 2 秒，最大为 30 秒。有关确切的数字和限制，请咨询您的管理员。
+    timeoutLabel: 脚本执行超时
+    timeoutPlaceholder: "1500"
+    title: 自动化脚本
+    userPickerPlaceholder: 选择用户
+  import: 导入自动化脚本
+  list:
+    column:
+      label:
+        async: 异步。
+        critical: 关键
+        enabled: 启用
+        runAs: 运行方式
+        runInUA: 在浏览器中
+    unnamed: （未命名脚本）
+  manage: 管理自动化脚本 ({{count}})
+  manage-id-permissions: 管理此脚本的权限
+  manage-wc-permissions: 管理所有脚本的权限
+  newLabel: 创建一个新脚本
+  newPlaceholder: 脚本名称
+  testing:
+    load: Load
+    parametersHeadline: '参数和有效载荷'
+    resultsHeadline: '结果：'
+    testInBrowser: 在浏览器中测试
+    testInCorredor: 在 Corredor 中测试
+    warning: ""
+  title: 自动化脚本列表
+general:
+  notFound: '未找到'
+  label:
+    "no": "No"
+    submit: 提交
+    "yes": "Yes"
+    selectOption: "提交"
+  logout: 登出
+  noAccess: 登出
+  pagination:
+    next: Next
+    prev: Prev
+navigation:
+  adminPanel: 管理面板
+  automation: 自动化
+  chart: 图表
+  configuration: 配置
+  help:
+    documentation: 文档
+    feedback: 发送反馈
+    forum: 帮助
+    version: 'Version:'
+  module: 模块
+  more: 更多
+  namespace: 命名空间
+  noPageTitle: 无页面标题
+  page: 页面
+  publicPages: 公共页面
+  userSettings:
+    changePassword: 更改密码
+    loggedInAs: 以 {{user}} 的身份登录
+    logout: 登出
+    profile: 简介

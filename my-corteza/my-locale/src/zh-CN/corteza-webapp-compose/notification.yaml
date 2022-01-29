@@ -1,0 +1,73 @@
+automation:
+  scriptFailed: 无法执行自动化
+chart:
+  createFailed: 无法创建图表
+  deleteFailed: 无法删除此图表
+  deleted: 图表已删除
+  invalidConfig:
+    missingDimensionsField: 未定义维度字段
+    missingDimensionsModifier: 未定义尺寸修饰符
+    missingMetricsAggregate: 未定义尺寸修饰符
+    missingMetricsField: 未定义指标聚合
+    missingMetricsType: 未定义指标字段
+    missingModuleID: 模块未定义
+    missingReports: 报告未定义
+  loadFailed: 无法加载图表
+  optionsBuildFailed: 无法构建图表选项
+  saveFailed: 无法保存此图表
+  saved: 图表已保存
+  unsupportedRenderer: 不支持的渲染器
+color:
+  RGBA:
+    invalid: 无效的 RGBA 颜色格式
+field:
+  missingRequired: 必填字段缺少值
+  unknownFieldKind: '错误：未知字段类型“{{kind}}”，未找到查看器组件。'
+  unsupportedKind: 不支持的字段种类 {{kind}}
+field-datetime:
+  valueNotFuture: 仅未来字段的过去值
+  valueNotPast: 仅过去字段的未来值
+general:
+  composeAccessNotAllowed: 不允许访问 Compose
+  error: 错误
+  success: 成功
+  warning: 警告
+module:
+  createFailed: 无法创建模块
+  deleteFailed: 无法删除此模块
+  deleted: 模块已删除
+  saveFailed: 无法保存此模块
+  saved: 模块已保存
+namespace:
+  application:
+    createFailed: 无法创建命名空间应用程序
+    fetchFailed: 无法获取命名空间应用程序
+    saveFailed: 无法保存命名空间应用程序
+  assetUploadFailed: 无法上传附加资产
+  createFailed: 无法创建命名空间
+  deleteFailed: 无法删除此命名空间
+  disabled: 命名空间已禁用 - 重定向
+  saveFailed: 无法保存此命名空间
+  saved: 已保存命名空间
+page:
+  createFailed: 无法创建页面
+  deleteFailed: 无法删除此页面
+  loadFailed: 无法加载页面树
+  noPages: 未找到页面
+  saveFailed: 无法保存此页面
+  saveFailedRequired: 无法保存此页面，必须存在所有必需的模块字段
+  saved: 页面已保存
+record:
+  createFailed: 无法创建记录
+  deleteFailed: 无法删除记录
+  invalidOwnerVar: 不能在非记录页面中使用 ${ownerID} 变量
+  invalidRecordVar: 不能在非记录页面中使用 ${record...} 变量
+  listLoadFailed: 无法加载记录列表
+  loadFailed: 无法加载记录
+  moduleMismatch: 模块不兼容，模块不匹配
+  moduleNotDefined: 记录模块未定义
+  moduleOrPageNotSet: 'RecordList 块错误：未设置模块或页面选项'
+  unexpectedInput: values 属性的意外输入，应该是具有名称-值对象对的数组
+  unexpectedValue: 记录模块的意外值 ({{type}})
+  updateFailed: 无法更新记录
+  validationErrors: 检查表单上的错误消息

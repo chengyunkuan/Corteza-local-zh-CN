@@ -1,0 +1,125 @@
+label:
+  actions: 行动
+  active: 活跃
+  add: 添加
+  addNew: 添加新的
+  addValue: 添加新值
+  attachmentFileInfo: '(文件大小： {{0}}, 已上传 {{1}})'
+  attributes: 属性
+  back: 返回
+  backWithoutSave: 返回（不保存更改）
+  browse: 浏览
+  buttons: 按钮
+  cancel: 取消
+  clone: 克隆
+  close: 关闭
+  create: 创建
+  delete: 删除
+  description: 描述
+  download: 下载
+  dropFiles: 在此处单击或拖放文件以上传
+  edit: 编辑
+  enabled: 启用
+  export: 导出
+  fileTypeNotAllowed: 不允许的文件类型
+  general: 一般
+  handle: 句柄
+  here: 这儿
+  import: 导入
+  importPlaceholder: 上传要导入的文件
+  loading: 加载
+  makeDefault: 设为默认值
+  module: 模块
+  moduleName: 模块名称
+
+  multi: 多值
+  name: 名称
+  next: 下一个
+  "no": "No"
+  noHandle: 无句柄
+  none: None
+  ok: Ok
+  openBookmarks: 打开书签
+  pageBuilder: 页面构建器
+  permissions: 权限
+  private: Private
+  processing: 处理...
+  record: 记录
+  recordPage: 记录页面
+  field: 字段
+  remove: 移除
+  removeDefault: 删除默认值
+  required: 必填
+  save: 保存
+  saveAndClose: 保存并关闭
+  status: 状态
+  timeHour: '{{t}}h'
+  timeMinute: '{{t}}min'
+  title: 标题
+  type: 类型
+  updatedAt: 更新于
+  uploadError: '文件上传问题： "{{message}}"'
+  uploading: 上传
+  urlPlaceholder: https://example.tld
+  validation: 验证
+  view: 视图
+  "yes": "Yes"
+navigation:
+  chart: 图表
+  namespace: 命名空间
+  module: 模块
+  page: 页面
+placeholder:
+  handle: 句柄（a - z，0 - 9，下划线，破折号）
+  sample: 示例
+reminder:
+  add: 添加新提醒
+  dismiss: 解除
+  edit:
+    assigneeLabel: 受让人
+    assigneePlaceholder: 我自己（默认）
+    notesLabel: 笔记
+    notesPlaceholder: Notes
+    remindAtLabel: 通知我
+    remindAtNone: 从不
+    titleLabel: 标题
+    titlePlaceholder: 标题
+  listLabel: 提醒
+  routesTo: '包括链接到：'
+  snooze: 睡眠
+tooltip:
+  dragAndDrop: 拖放以更改顺序
+fieldKinds:
+  Bool:
+    label: 复选框 (Y/N)
+  DateTime:
+    label: 日期和时间
+  Email:
+    label: 电子邮件输入
+  File:
+    label: 文件上传
+  Number:
+    label: 数字输入
+  Record:
+    label: 记录选择器
+  Select:
+    label: 选择/下拉
+  String:
+    label: 文本输入（字符串）
+  Url:
+    label: URL输入
+  User:
+    label: 用户选择器
+field:
+  selectAll: 全选
+  unselectAll: 取消全选
+  kind:
+    user:
+      suggestionPlaceholder: 开始输入以通过电子邮件或姓
+notification:
+  composeAccessNotAllowed: 不允许访问
+  import:
+    failed: 导入失败
+    readingError: 读取文件时出错
+    successful: 导入成功
+    typeMissmatch: '导入错误：试图将 "{{type1}}" 类型的对象导入 "{{type2}}" 类型的对象列表中'

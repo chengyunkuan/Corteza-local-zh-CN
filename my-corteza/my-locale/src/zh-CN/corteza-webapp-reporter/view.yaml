@@ -1,0 +1,4 @@
+pick-scenario: 选择一个场景
+report:
+  builder: 报告生成器
+  view: 报告视图 

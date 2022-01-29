@@ -1,0 +1,9 @@
+errors:
+  invalidID: 无效的 ID
+  invalidRoute: 无效的路由
+  notAllowedToCreate: 不允许创建过滤器
+  notAllowedToDelete: 不允许删除此过滤器
+  notAllowedToRead: 不允许读取此过滤器
+  notAllowedToUndelete: 不允许取消删除此过滤器
+  notAllowedToUpdate: 不允许更新此过滤器
+  notFound: 未找到过滤器

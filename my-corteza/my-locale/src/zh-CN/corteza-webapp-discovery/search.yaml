@@ -1,0 +1,15 @@
+notification:
+  search-error: 获取搜索结果时出现问题
+input-placeholder: 输入搜索文本
+search-results: 搜索结果
+card: 
+  button-text: 显示更多
+  type: 类型
+  handle: 句柄
+  namespace: 命名空间
+  module: 模块
+  user: 用户
+  email: 电子邮件
+  record: 记录
+  fields: 字段 
+

@@ -1,0 +1,89 @@
+editor:
+  info:
+    add: 添加
+    api: 允许客户端代表用户访问 Corteza API
+    choose-date: 选择一个日期
+    createdAt: 创建于
+    delete: 删除
+    deletedAt: 删除于
+    enabled:
+      disabledFootnote: 无法禁用默认客户端
+      label: 启用
+    expiresAt:
+      description: 如果未定义，则客户端没有到期日期
+      label: 到期时间
+    grant:
+      authorization_code: 将用于验证用户（授权类型=授权码）
+      client_credentials: 将用于验证机器（授权类型 = client_credentials）
+    handle:
+      disabledFootnote: 无法更改默认身份验证客户端的句柄
+      label: 句柄
+      placeholder-handle: 句柄（a - z，0 - 9，下划线，破折号）
+      invalid-handle-characters: 应至少有 2 个字符长并以字母开头。只能包含字母、数字、破折号、下划线和点
+    name: 名称
+    no-time: 未选择时间
+    profile: 允许客户端访问用户的个人资料
+    redirectURI: 重定向 URI 的
+    remove: 移除
+    secret: Secret
+    security:
+      forbiddenRoles:
+        description: 当用户授权此客户端时，此列表中的角色将从安全上下文中删除
+        label: 禁止角色
+      forcedRoles:
+        description: 当用户授权此客户端时，此列表中的角色将始终添加到安全上下文中
+        label: 强制角色
+      impersonateUser:
+        description: 使用客户端凭据进行身份验证时，以模拟用户的名义进行操作
+        label: 模拟用户
+      permittedRoles:
+        description: 当用户授权这个客户端时，只有这个列表中的角色才会被添加到安全上下文中
+        label: 允许的角色
+    title: 基本信息
+    trusted:
+      description: 当客户端受信任时，用户看不到授权步骤
+      label: 值得信赖
+    undelete: 取消删除
+    unnamed: 未命名的角色
+    updatedAt: 更新于
+    uri: URI
+    validFrom:
+      description: 如果未定义，则客户端在到期之前有效
+      label: 有效期自
+    generateCurl: 生成 cURL 片段
+    hideCurl: 隐藏 cURL 片段
+    cUrl: 生成的 cURL
+    testCurl: 测试认证
+    discovery: 允许客户端代表用户访问 Corteza Discovery API
+  new: 新的
+  permissions: 权限
+  title:
+    create: 创建客户端
+    edit: 编辑客户端
+list:
+  columns:
+    actions: ""
+    createdAt: 已创建
+    enabled: 启用
+    handle: 句柄
+    meta:
+      name: 名称
+  filterForm:
+    deleted:
+      label: 已删除的客户
+    excluded:
+      label: 没有
+    exclusive:
+      label: 只有
+    inclusive:
+      label: 包括
+    query:
+      label: 过滤客户列表
+      placeholder: 过滤客户端
+  loading: 加载客户端
+  new: 新的
+  numFound: '{{count}} 个客户端找到'
+  numFound_plural: '{{count}} 个客户端找到'
+  permissions: 权限
+  title: 验证客户端
+  yaml: YAML

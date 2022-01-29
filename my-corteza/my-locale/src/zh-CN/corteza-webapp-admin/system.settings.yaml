@@ -1,0 +1,112 @@
+editor:
+  title: 系统设置
+  auth:
+    title: 认证
+    url: URL
+    internal:
+      title: 内部
+      enabled: 启用内部身份验证
+      password-reset:
+        enabled: 启用密码重置
+      password-constraints:
+        title: 密码约束
+        ignored-security: 系统配置为忽略在生产部署中不安全的密码安全约束。如果这是生产部署，请联系您的管理员以更新系统配置（AUTH_PASSWORD_SECURITY .env 变量）。
+        min-length: 最小长度
+        min-length-description: 必须至少 8 个字符
+        min-num-count: 最小数字个数
+        min-num-count-description: 密码必须包含指定数量的数字（如果设置为 0，则禁用）
+        min-special-count: 特殊字符的最小数量
+        min-special-count-description: 密码必须包含指定数量的特殊字符（如果设置为 0，则禁用）
+      signup:
+        email-confirmation-required: 需要注册电子邮件确认
+        enabled: 启用注册
+        split-credentials-check:
+          description: '将登录分为两个步骤：首先收集电子邮件输入并在第二个屏幕上显示密码输入。当用户未设置密码且仅存在一个 IdP 时，自动将用户转发给外部身份提供者'
+          label: 启用拆分凭据检查
+    mail:
+      title: 认证邮件发件人邮件
+      from-address: 发件人的地址
+      from-name: 发件人名称
+      validate-email: 请输入有效的电子邮件地址。
+    mfa:
+      title: 多因素身份验证
+      TOTP:
+        enabled: 允许用户使用基于时间的一次性密码（使用移动应用程序）
+        enforced: 强制用户使用基于时间的一次性密码（使用移动应用程序）
+        issuer:
+          description: 当用户配置它时，颁发者名称将被发送到验证器应用程序。
+          label: 发行人
+      emailOTP:
+        enabled: 允许用户通过电子邮件使用一次性密码
+        enforced: 强制用户通过电子邮件使用一次性密码
+        expires:
+          description: 密码在过期前多久有效。
+          label: 适用于
+
+  external:
+    title: 外部身份验证提供程序
+    enabled: 启用外部身份验证
+
+    table:
+      header:
+        provider: 提供者
+        info: 发行者、客户 ID
+
+
+    standard:
+      enabled: 启用
+      clientKey: 客户端密钥
+      clientSecret: Secret
+
+    oidc:
+      add: 添加 OIDC 提供者
+      enabled: 启用
+      handle: 句柄
+      title: OpenID 连接
+      issuer: OIDC 发行人 URL
+      issuerHint: 在哪里可以找到 /.well-known/openid-configuration（没有 /.well-known/openid-configuration 部分）
+      clientKey: 客户端密钥
+      clientSecret: Secret
+      scope: 范围
+      scopePlaceholder: 列出支持的 OAuth 范围值，使用空格分隔的字符串
+
+    saml:
+      enabled: 启用
+      title: SAML
+      cert:
+        public: 公钥
+        private: 私钥
+        sign-requests: 签名请求
+        sign-method: 签名方法
+      name: 名称
+      certificate: 证书
+      idp:
+        title: 身份提供者
+        ident-handle: 句柄字段
+        ident-identifier: 标识符字段
+        ident-name: 名称字段
+        url: URL
+      desc:
+        name: 登录屏幕上使用的 IdP 名称（使用 <name> 登录）
+        cert:
+          public: 内容将被最小化
+          private: 内容将被最小化
+          sign-requests: 签署 AuthNRequest 和断言
+          sign-method: 用于签名请求的方法
+        idp:
+          url: IdP 元数据的位置
+          ident-handle: 用于填充 Corteza 用户句柄或昵称的 IdP 字段的名称
+          ident-identifier: 用于填充和匹配 Corteza 用户电子邮件的 IdP 字段的名称
+          ident-name: 用于填写 Corteza 用户全名的 IdP 字段的名称
+
+
+    security:
+      forbidden-roles:
+        description: 当使用此提供者进行身份验证时，此列表中的角色将从安全上下文中删除
+        label: 禁止角色
+      forced-roles:
+        description: 当使用此提供者进行身份验证时，此列表中的角色将始终添加到安全上下文中
+        label: 强制角色
+      permitted-roles:
+        description: 当使用此提供者进行身份验证时，只有此列表中的角色才会被添加到安全上下文中
+        label: 允许的角色

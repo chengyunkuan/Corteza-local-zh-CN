@@ -1,0 +1,22 @@
+template:
+  title: 登录
+  form:
+    email:
+      label: 电子邮件
+      placeholder: email@domain.ltd
+    password:
+      label: 密码
+      placeholder: 密码
+    button:
+       login-and-remember: 登录并记住我
+       login: 登录
+       continue: 继续
+  links:
+    request-password-reset: 忘记密码？
+    signup: 创建一个新帐户
+    external:
+      login-with: 使用 {{idp}} 登录
+
+alerts:
+  logged-in: 您现在已登录。
+  local-disabled: 禁用本地帐户

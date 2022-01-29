@@ -1,0 +1,25 @@
+template:
+  title: 使用 TOTP 配置两因素身份验证
+  enforced: |
+    TOTP 多因素身份验证由 Corteza 管理员强制执行。
+    请立即进行配置。
+
+  instructions: |
+     Corteza 使用基于时间的一次性密码 (TOTP) 作为双因素身份验证的基础技术之一。使用下面列出的应用程序之一并输入密码或扫描二维码。
+     <br />
+     <br />
+     这将为您的帐户提供额外的安全性。
+     <br />
+     <br />
+     您可以使用以下应用程序之一：
+  lastpass: <a target="_blank" href="{{ link }}">LastPass 身份验证</a>
+  gauth: 适用于 <a target="_blank" href="{{ android }}">Android</a> or <a target="_blank" href="{{ iphone }}">iPhone</a>的 Google 身份验证器
+  authy: <a target="_blank" href="{{ link }}">Authy</a>
+
+  form:
+    title: "通过输入验证器应用程序中的代码完成配置："
+    button: 提交
+
+alerts:
+  text-2FA-enabled: 启用 TOTP 的两因素身份验证
+  text-2FA-disabled: 禁用 TOTP 的两因素身份验证

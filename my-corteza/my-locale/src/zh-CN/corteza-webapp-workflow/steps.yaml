@@ -1,0 +1,82 @@
+break:
+  label: 打断
+  tooltip: 停止迭代器执行并继续工作流
+continue:
+  label: 继续
+  tooltip: 停止当前迭代并继续下一个迭代
+debug:
+  label: 调试
+  tooltip: 将当前工作流范围记录到服务器日志中。如果启用了工作流调试
+delay:
+  label: 延迟
+  tooltip: 延迟工作流执行
+error:
+  label: 错误
+  tooltip: 引发错误并停止工作流执行，还可以防止保存使用前触发器触发的记录
+'error-handler':
+  label: 错误处理程序
+  tooltip: 如果触发错误，则从此步骤继续工作流程
+expressions:
+  configurator:
+    'add-expression': + 添加表达式
+    expression: 表达式
+    'expression-placeholder': 表达式...
+  label: 表达式
+  tooltip: 定义和改变范围变量
+function:
+  configurator:
+    arguments: 参数
+    constant: 常数
+    expression: 表达式
+    name: 名称
+    'option-select': 选择一个选项
+    result: 结果
+    results: 结果
+    'select-function': 选择功能
+    type: 类型
+    'type*': '类型*'
+  label: 功能
+  tooltip: 执行选择的预定义函数
+gatewayExclusive:
+  label: 网关（独家）
+  tooltip: 工作流执行可以在符合条件的第一条路径上继续
+gatewayInclusive:
+  label: 网关（含）
+  tooltip: 工作流执行可以在符合条件的所有路径上继续
+gatewayParallel:
+  label: 网关（分叉/加入）
+  tooltip: 将工作流执行拆分为两个并行路径或将多个路径合并为一个
+gateway:
+  configurator:
+    condition: 条件
+    'two-paths': 网关必须是至少两条路径的来源
+iterator:
+  label: 迭代器
+  tooltip: 迭代项目
+prompt:
+  label: 提示
+  tooltip: 提示用户并等待输入
+swimlane:
+  label: 区隔线
+  tooltip: 直观地对步骤进行分组
+termination:
+  label: 终止（完）
+  tooltip: 终止工作流执行
+trigger:
+  configurator:
+    add: +添加
+    'add-constraints': + 添加约束
+    constraints: 约束
+    'event*': '事件*'
+    'failed-fetch-event-types': 获取事件类型失败
+    'initial-scope': 初始范围
+    like: 匹配
+    'not-like': 不匹配
+    operator: 运算符
+    resource:  资源
+    'resource*':  '资源*'
+    'select-constraint-type': 选择约束类型
+    'select-event-type': 选择事件类型
+    'select-resource-type': 选择资源类型
+  label: 触发器（开始）
+  tooltip: 根据配置触发工作流执行 

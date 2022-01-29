@@ -1,0 +1,31 @@
+
+'auto-initialize-empty-variable': 无法加载的变量将自动初始化为空
+back: 返回
+'click-to-save': 点击此处保存。
+deferred: 延期
+delete: 删除
+deleted: 已删除
+'detected-changes': "检测到的变化” "
+'detected-issues': 检测到的问题
+disabled: 禁用
+help: 帮助
+handle: (句柄)
+id: "ID:"
+'id-parenthesis': " (ID)"
+'initial-scope': 初始范围
+'input-ids-or-handles': 初始范围在执行时被注入到工作流中。要加载可用变量，请在下面输入相关的 ID/句柄
+issues: 问题
+'load-and-configure': 加载和配置
+'modify-initial-scope-if-no-variables-are-loaded': 如果您不希望加载任何变量，请单击“配置”以在运行工作流之前修改初始范围
+'open-webapp-on-prompt-use' : "警告：如果工作流中使用了提示，请确保相关的 webapp 也已打开。否则工作流将超时"
+reset: 重置
+'run-as': "运行于"
+'run-workflow': 运行工作流
+'required-namespace': 需要命名空间
+'required-namespace-and-module': 需要命名空间和模块
+save: 保存
+spinning: 旋转
+'test-in-progress': "测试正在进行中。如果您的工作流程包括提示或延迟步骤，它可能正在等待它们完成"
+'unsupported-browser': 不支持浏览器！
+'workflow-configuration': 工作流配置
+'editor': 编辑 

@@ -1,0 +1,20 @@
+template:
+  title: 您的个人资料
+  form:
+    email:
+      label: 电子邮件
+      placeholder: email@domain.ltd
+      resend-confirmation-link: 电子邮件未验证, <a href="{{link}}?resend">重新发送确认链接。</a>
+    name:
+      label: 全名
+      placeholder: 您的全名
+    handle:
+      label: 名称
+      placeholder: 简称、昵称或名称
+    preferred-language:
+      label: 首选语言
+    buttons:
+      submit: 更新个人资料
+alerts:
+  profile-updated: 资料件更新成功。
+  profile-update-fail: 由于输入错误，无法更新资料

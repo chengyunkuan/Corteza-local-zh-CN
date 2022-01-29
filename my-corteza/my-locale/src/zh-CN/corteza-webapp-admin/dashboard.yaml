@@ -1,0 +1,18 @@
+applications:
+  applications: 应用程序
+  deleted: 已删除
+  title: 活动应用程序
+  total: 总计
+roles:
+  archived: 已存档
+  deleted: 已删除
+  roles: 角色
+  title: 活动的角色
+  total: 总计
+title: 仪表盘
+users:
+  deleted: 已删除
+  suspended: 暂停
+  title: 活跃用户
+  total: 总计
+  users: 用户

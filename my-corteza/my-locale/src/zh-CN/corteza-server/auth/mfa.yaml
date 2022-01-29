@@ -1,0 +1,22 @@
+template:
+  title: 多因素身份验证
+
+  email:
+    instructions: 检查您的收件箱并输入收到的代码
+    code: 代码
+    verify: 验证
+    resend: 重发
+    confirmed: 电子邮件 OTP 已确认
+
+  totp:
+    instructions: 检查您的 TOTP 应用并输入您收到的代码
+    code: 代码
+    confirmed: TOTP 确认
+    verify: 验证
+
+alerts:
+  email:
+    resent: 电子邮件 OTP 已重新发送
+
+  topt:
+    valid: TOTP有效

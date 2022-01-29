@@ -1,0 +1,12 @@
+template:
+  title: 授权客户端
+
+  list:
+    authorized-on: 授权于
+    buttons:
+      revoke: 撤销访问权
+    empty: 未找到授权客户端
+
+alerts:
+  removed: 已删除客户端授权
+

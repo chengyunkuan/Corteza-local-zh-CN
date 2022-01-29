@@ -1,0 +1,16 @@
+list:
+  columns:
+    updatedAt: 最新更新
+  filter:
+    absoluteTime: 显示绝对时间
+    incScriptsWithErrors: 错误 ({{ count }})
+    incScriptsWithIterator: 迭代器 ({{ count }})
+    incScriptsWithSecurity: 迭代器 ({{ count }})
+    incScriptsWithTriggers: 触发器 ({{ count }})
+    searchQuery: 触发器
+  flags:
+    iterator: 触发器
+    security: 安全
+    triggers: 触发器
+  labelMissing: <标签缺失>
+  title: Corredor 脚本

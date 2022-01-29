@@ -1,0 +1,10 @@
+errors:
+  federationSyncStructureChanged: 模块结构改变
+  invalidID: 无效的 ID
+  nodeNotFound: 节点不存在
+  notAllowedToCreate: 不允许创建模块
+  notAllowedToManage: 不允许管理此模块
+  notAllowedToMap: 不允许映射这个模块
+  notFound: 模块不存在
+  notUnique: 节点不唯一
+  staleData: 陈旧数据

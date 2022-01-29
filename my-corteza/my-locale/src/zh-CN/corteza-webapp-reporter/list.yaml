@@ -1,0 +1,9 @@
+permissions: 权限
+report:
+  builder: 报告生成器
+  edit: 编辑
+  list: 报告列表
+  new: 新报告
+searchPlaceholder: 在此处键入以搜索报告
+title: 报告
+untitledTitle: 无标题报告 

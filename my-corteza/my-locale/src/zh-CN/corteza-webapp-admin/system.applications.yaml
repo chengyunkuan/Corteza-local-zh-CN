@@ -1,0 +1,59 @@
+editor:
+  info:
+    createdAt: 创建于
+    delete: 删除
+    deletedAt: 删除于
+    enabled: 启用
+    id: ID
+    name: 名称
+    title: 基本信息
+    undelete: 取消删除
+    updatedAt: 更新于
+  new: 新的
+  permissions: 权限
+  title:
+    create: 创建应用程序
+    edit: 编辑应用程序
+  unify:
+    config:
+      description: 应用程序配置（JSON）
+      label: 配置
+    listed: listed
+    logo:
+      description: 应用程序选择器中使用的标志
+      label: Logo
+      placeholder: 选择一个徽标或将其放在此处...
+    name:
+      description: 应用程序选择器中使用的名称
+      label: 名称
+    pinned: 固定
+    title: 应用选择器
+    url:
+      description: 应用 URL
+      label: URL
+list:
+  columns:
+    actions: ""
+    createdAt: 已创建
+    enabled: 启用
+    name: 名称
+    appListName: 应用选择器名称
+  filterForm:
+    deleted:
+      label: 已删除的应用程序
+    excluded:
+      label: 没有
+    exclusive:
+      label: 只有
+    inclusive:
+      label: 包括
+    query:
+      label: 过滤应用列表
+      placeholder: 按名称过滤应用程序
+  loading: 加载应用程序
+  new: 新的
+  numFound: '{{count}} 个应用程序找到'
+  numFound_plural: '找到 {{count}} 个应用程序'
+  permissions: 权限
+  title: 应用程序
+  yaml: YAML

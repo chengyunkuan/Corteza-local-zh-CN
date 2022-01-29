@@ -1,0 +1,91 @@
+chart:
+  configurator:
+    begin-axis-at-zero: 始终从零开始轴刻度
+    chart-title: 图表标题
+    color-scheme: 配色方案
+    data: 数据
+    data-columns: 数据列
+    default: 默认
+    default-value: 默认值
+    general: 默认值
+    label-column: 标签列
+    logarithmic-scale: 对数刻度
+    none: None
+    place-axis-on-right-side: 将轴放在右侧
+    show:
+      tooltips: 显示工具提示
+      legend: 显示图例
+    skip-missing-values: 跳过缺失值
+    step-size: 步长
+    time:
+      label: 步长
+      unit: 
+        label: 时间单位
+        types:
+          date: 日期
+          month: 月
+          quarter: 月
+          week: 周
+          year: 年份
+    type: 类型
+    types:
+      bar: 条形
+      doughnut: 圈状
+      funnel: 漏斗
+      line: 线
+      pie: 饼状
+    value:
+      max: 最大值
+      min: 最小值
+    x-axis: 
+      name: X轴
+      label: 轴标签
+      type: 轴类
+    y-axis:
+      name: Y轴
+      label: 轴标签
+metric:
+  configurator:
+    color:
+      background: 背景颜色
+      text: 文字颜色
+    format: 格式
+    label-column: 标签列
+    none: None
+    prefix: 前缀
+    suffix: 后缀
+table:
+  configurator:
+    general: 一般
+    data: 数据
+    columns: 列
+    dark: 黑暗
+    head-variant: 头变体
+    joined-datasource-handling: 加入数据源处理
+    light: 明亮
+    none: None
+    table:
+      options: 
+        bordered: 镶边
+        borderless: 无边界
+        dark: 黑暗
+        fixed: 固定
+        hover: 悬停
+        label: 表格选项
+        no-collapse: 无边框折叠
+        responsive: 响应式
+        small: 小
+        striped: 小
+      variant: 表变体
+      variants:
+        danger: 危险
+        dark: 危险
+        info: 危险
+        light: 明亮
+        primary: 首要
+        secondary: 次要
+        success: 成功
+        warning: 警告
+  view:
+    next: 下一个
+    previous: 上一个 

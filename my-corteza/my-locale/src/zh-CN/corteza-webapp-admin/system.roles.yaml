@@ -1,0 +1,63 @@
+editor:
+  info:
+    archive: 存档
+    archivedAt: 存档于
+    createdAt: 创建于
+    delete: 删除
+    deletedAt: 删除于
+    handle: 句柄
+    placeholder-handle: 句柄（a - z，0 - 9，下划线，破折号）
+    invalid-handle-characters: 应至少有 2 个字符长并以字母开头。只能包含字母、数字、破折号、下划线和点
+    name: 角色名称
+    title: 基本信息
+    unarchive: 取消归档
+    undelete: 取消删除
+    updatedAt: 更新于
+
+    description: 描述
+
+    context:
+      label: 上下文角色
+      expression-label: 表达式
+      resource-types-label: 资源类型
+
+  members:
+    add: 添加
+    count: 成员 ({{count}})
+    remove: 移除
+    searchUsers: 搜索用户
+    title: 角色成员
+    unnamed: 未命名的用户
+  new: 新
+  permissions: 权限
+  title:
+    create: 创建角色
+    edit: 编辑角色
+list:
+  columns:
+    actions: ""
+    createdAt: 已创建
+    enabled: 启用
+    handle: 句柄
+    name: 名称
+  filterForm:
+    archived:
+      label: 存档的角色
+    deleted:
+      label: 已删除的角色
+    excluded:
+      label: 没有
+    exclusive:
+      label: 只有
+    inclusive:
+      label: 包括
+    query:
+      label: 过滤角色列表
+      placeholder: 按名称过滤角色
+  loading: 加载角色
+  new: 新
+  numFound: '{{count}} 个角色找到'
+  numFound_plural: '{{count}} 个角色找到'
+  permissions: 权限
+  title: 角色
+  yaml: YAML

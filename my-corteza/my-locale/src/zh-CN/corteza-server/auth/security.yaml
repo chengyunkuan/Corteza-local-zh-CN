@@ -1,0 +1,27 @@
+template:
+  title: 安全
+
+  password:
+    title: 密码
+    change-link: 更改您的密码
+
+  mfa:
+    title: 多因素身份验证
+    totp:
+      title: 移动应用程序的额外安全性（基于时间的一次性密码）
+      enforced: 在登录时配置和需要。
+      disabled: 当前禁用。
+      configure: 配置
+      disable: 禁用
+
+    email:
+      title: 通过电子邮件使用一次性密码增加安全性
+      enforced: 在登录时启用和要求。
+      disabled: 当前禁用。
+      enable: 配置
+      disable: 禁用
+
+    all-disabled: 当前禁用所有 MFA 方法。 请让您的管理员启用它们。
+
+alerts:
+  topt-disabled: 禁用 TOTP 的两因素身份验证

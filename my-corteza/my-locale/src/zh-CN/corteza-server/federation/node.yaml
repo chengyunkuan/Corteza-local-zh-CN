@@ -1,0 +1,10 @@
+errors:
+  notAllowedToCreate: 不允许创建节点
+  notAllowedToManage: 不允许管理此节点
+  notAllowedToPair: 不允许配对此节点
+  notAllowedToSearch: 不允许搜索或列出节点
+  notFound: 节点不存在
+  pairingTokenInvalid: 配对令牌无效
+  pairingURIInvalid: '配对 URI 无效: {err}'
+  pairingURISourceIDInvalid: 没有源节点 ID 的配对 URI
+  pairingURITokenInvalid: 将 URI 与无效的配对令牌配对

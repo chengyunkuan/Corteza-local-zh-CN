@@ -1,0 +1,32 @@
+ui:
+  reset-back: 重置回 "{{current}}"
+  save-changes: 保存更改
+  set-for: 为 {{target}} 设置权限
+
+  access:
+    allow: 允许
+    inherit: 允许
+    deny: 拒绝
+
+resources:
+  system:
+    report:
+      all: 所有报告
+      specific: 报告 "{{target}}"
+      operations:
+        delete:
+          description: ""
+          specific: 删除报告 "{{target}}"
+          title: 删除任何报告
+        read:
+          description: ""
+          specific: 阅读报告 "{{target}}"
+          title: 阅读任何报告
+        run:
+          description: ""
+          specific: 运行报告 "{{target}}"
+          title: 运行任何报告
+        update:
+          description: ""
+          specific: 更新报告 "{{target}}"
+          title: 更新任何报告 

@@ -1,0 +1,51 @@
+editor:
+  info:
+    completedAt: 完成于
+    createdAt: 创建于
+    createdByUserID: 创建者 - ID
+    createdByUserName: 创建者 - 名称
+    delete: 删除
+    deletedAt: 删除于
+    error: 删除于
+    eventType: 事件类型
+    id: ID
+    resourceType: 资源类型
+    status: 状态
+    title: 基本信息
+    workflowID: 基本信息
+  title: 会话
+list:
+  columns:
+    actions: ""
+    createdAt: 创建于
+    eventType: 创建于
+    sessionID: 会话ID
+    status: 状态
+    workflowID: 工作流ID
+  filterForm:
+    all:
+      label: 全部
+    completed:
+      label: 已完成
+    excluded:
+      label: 无
+    exclusive:
+      label: 仅
+    failed:
+      label: 失败
+    inProgress:
+      label: 已完成的会话
+    inclusive:
+      label: 包括
+    prompted:
+      label: 提示
+    sessions:
+      label: 会话
+    started:
+      label: 开始
+    suspended:
+      label: 暂停
+  loading: 加载会话
+  numFound: '{{count}} 个会话找到'
+  numFound_plural: '{{count}} 个会话找到'
+  title: 会话

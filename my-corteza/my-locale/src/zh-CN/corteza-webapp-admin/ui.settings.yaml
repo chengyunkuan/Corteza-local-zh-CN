@@ -1,0 +1,24 @@
+editor:
+  title: '用户界面设置'
+
+  mainLogo:
+    title: 'Main logo'
+
+    uploader:
+      instructions: '单击或将主徽标拖放到此处以上传'
+      uploading: '上传Main logo'
+
+  iconLogo:
+    title: 'Icon logo'
+
+    uploader:
+      instructions: '单击或将图标徽标图像拖放到此处以上'
+      uploading: '上传 icon logo'
+
+  favicon:
+    title: '网站图标'
+
+    uploader:
+      instructions: '单击或将网站图标文件拖放到此处以上传'
+      uploading: '上传网站图标'
+

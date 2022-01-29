@@ -1,0 +1,410 @@
+automation:
+  addPlaceholderLabel: 添加占位符（虚拟按钮）
+  availableScriptsAndWorkflow: 可用的脚本和工作流 ({{count}})
+  badge:
+    script: 脚本
+    workflow: 工作流程
+  buttonLabel: 标签
+  buttonVariant: 变体
+  configuredButtons: 配置按钮
+  dangerButton: 危险
+  darkButton: 黑暗
+  dummyButtonLabel: 虚拟
+  editButton: 编辑
+  editTitle:
+    script: 编辑自动化脚本按钮
+    workflow: 编辑工作流程按钮
+  label: 自动化
+  lightButton: 明亮的
+  noDescription: 无描述
+  noLabel: 未标记
+  noScript: 没有为此按钮配置脚本或工作流
+  noScripts: 没有与此页面块兼容的手动脚本
+  primaryButton: 主要
+  removeAll: 全部删除
+  searchPlaceholder: 按标签、脚本名称和描述过滤可用脚本
+  secondaryButton: 次要
+  stepID: 'stepID: {{stepID}}'
+  successButton: 成功
+  warningButton: 警告
+calendar:
+  addEventsSource: 添加事件源
+  calendarHeader: 日历标题
+  feedLabel: 配置事件源
+  feedPlaceholder: 选择一个提要来源
+  hideHeader: 隐藏日历标题
+  hideNavigation: 隐藏上一个/下一个按钮
+  hideTitle: 隐藏标题文本
+  hideToday: 隐藏今天按钮
+  label: 日历
+  recordFeed:
+    colorLabel: 事件颜色
+    eventAllDay: 显示为全天事件
+    eventEndFieldLabel: 事件结束
+    eventEndFieldPlaceholder: (无字段，活动将持续 1 小时)
+    eventStartFieldLabel: 事件开始
+    eventStartFieldPlaceholder: (无字段)
+    moduleLabel: 选择模块
+    modulePlaceholder: (无模块)
+    noMultiFields: 目前不支持多值字段
+    optionLabel: 记录
+    prefilterLabel: 预过滤事件
+    prefilterPlaceholder: field1 = 1 AND field2 = 232
+    titleLabel: 标题
+    titlePlaceholder: (无字段)
+  reminderFeed:
+    colorLabel: 事件颜色
+    optionLabel: 事件颜色
+  today: 今天
+  view:
+    dayGridMonth: 月
+    default: 默认视图
+    enabled: 启用的视图
+    footnote: 确保默认是可用视图之一
+    listMonth: 议程
+    timeGridDay: 天
+    timeGridWeek: 周
+  viewLabel: 日历
+chart:
+  add: 新图表
+  addFunnel: 漏斗图
+  addGauge: 仪表图
+  addGeneric: 通用图表
+  createFailed: 无法创建图表
+  configure:
+    label: 配置图表
+    reportLabel: 报告 {{l}}
+    reportsLabel: 报告
+  display: '要在此块内显示的图表：'
+  edit:
+    label: 编辑图表
+    dimension:
+      function:
+        date: 日期
+        label: 功能
+        month: 月
+        none: (无分组/桶)
+        placeholder: 选择维度修饰符（桶大小）
+        quarter: 季度
+        week: 周
+        year: 年
+  label: 图表
+  noChart: 没有图表
+  pick: 选择图表
+  preview:
+    chartId: 图表预览 (ID {{0}})
+  searchPlaceholder: 在此处键入以搜索此命名空间中的所有图表
+content:
+  label: 内容
+  ok: Ok
+  urlPlaceholder: https://example.tld
+file:
+  label: 档案
+  preview:
+    label: 文件块
+general:
+  changeBlock: 更改现有块
+  descriptionLabel: 描述
+  descriptionPlaceholder: 块描述
+  headerStyle: 块头样式（颜色）
+  label:
+    add: 添加
+    back: 背部
+    edit: 编辑
+    general: 一般
+    import: 导入
+    next: 下一个
+    none: None
+    ok: Ok
+    permissions: 权限
+    remove: 移除
+    save: 保存
+    search: 搜索
+  module: 模块
+  style:
+    danger: 危险变体
+    default: 深色变体
+    primary: 初级变体
+    secondary: 次要变体
+    success: 成功变体
+    warning: 警告变体
+  title: 添加新块
+  titleLabel: 标题
+  titlePlaceholder: 块标题
+  tooltip:
+    dragAndDrop: 拖放以更改顺序
+iframe:
+  label: IFrame
+  pickURLField: 选择一个 URL 字段
+  srcDesc: 与记录字段组合设置时用作后备。
+  srcFieldDesc: 仅在记录页面和具有现有“url”字段类型的模块上可用
+  srcFieldLabel: 记录中用于 iframe 的字段 (URL)
+  srcLabel: 在 iframe 中显示的 URL
+metric:
+  defaultMetricLabel: 未命名的指标
+  edit:
+    bucketLabel: 桶大小
+    bucketPlaceholder: 选择一个桶大小
+    dateFormat: 日期格式
+    dimensionFieldLabel: 字段
+    dimensionFieldPlaceholder: 维度字段
+    dimensionLabel: 维度
+    filterFootnote: 支持简化的 SQL 条件  (WHERE ...) 语法。评估{{0}}, {{1}} 和 {{2}} 等变量（如果可用）
+    filterLabel: 过滤器
+    labelLabel: 标签
+    labelPlaceholder: 标签
+    metricFieldLabel: 字段
+    metricFieldPlaceholder: 维度字段
+    metricLabel: 公制
+    moduleLabel: 模块
+    modulePlaceholder: 选择一个模块
+    numberFormat: 数字格式
+    operationAvg: 平均
+    operationLabel: 聚合操作
+    operationMax: 最大值
+    operationMin: 最小值
+    operationPlaceholder: 聚合操作
+    operationStd: 标准
+    operationSum:  总和
+    prefixLabel: 前缀
+    refreshData: 刷新数据
+    suffixLabel: 后缀
+    tabTitle: 公制
+    transformFunctionDescription: v - 当前值； label - 当前值的标签
+    transformFunctionLabel: 变换值
+  editStyle:
+    backgroundColor: 背景颜色
+    color: 文字颜色
+    fontSize: 字体大小（以像素为单位）
+    labelLabel: 标签样式
+    valueLabel: 值样式
+  label: 公制
+notification:
+  record:
+    loadFailed: 无法加载记录
+record:
+  confirmDelete: 确定要删除这条记录吗？
+  deleteFailed: 无法删除记录
+  deleteRecord: 删除记录
+  invalidOwnerVar: 不能在非记录页面中使用 ${ownerID} 变量
+  invalidRecordVar: 不能在非记录页面中使用 ${record...} 变量
+  label: 记录
+  listLoadFailed: 无法加载记录列表
+  moduleOrPageNotSet: 'RecordList 块错误：未设置模块或页面选项'
+  moduleMismatch: 模块不兼容，模块不匹配
+  preview:
+    blockNoRecord: 不能在没有记录的情况下渲染这个块
+    fieldsFromModule: 单个记录块，显示来自模块 {{1}} 的字段 ({{0}}) 
+    untitled: 无题
+  recordDeleted: 这条记录已被删除
+recordList:
+  addRecord: 添加
+  cancelSelection: 取消
+  editFields: 可编辑的模块字段
+  export:
+    all: 导出所有记录
+    allow: 允许记录导出
+    csv: CSV 导出
+    dateRange: '选择日期范围：'
+    query:
+      label: 搜索查询
+      placeholder: 搜索...
+    filter:
+      label: 过滤记录
+      placeholder: field1 = 1 AND field2 = 232
+      footnote: 支持简化的 SQL 条件 (WHERE ...) 语法。评估 {{0}}, {{1}} 和 {{2}} 等变量（如果可用）
+      createdAt: 创建的记录
+      custom: 定制
+      lastMonth: 上个月
+      lastWeek: 上周
+      thisMonth: 本月
+      thisWeek: 本周
+      today: 今天
+      updatedAt: 记录更新
+    inRange: 设置日期范围
+    includeQuery: 按搜索查询过滤
+    json: JSON 导出
+    limitations: 'CSV 导出限制：仅导出多值字段中的第一个值'
+    rangeBy: '设置范围：'
+    recordCount: '{{count}} 条记录准备导出'
+    selectFields: '选择要导出的字段：'
+    selection: 选定的记录
+    specifyTimezone: 导出到时区
+    timezonePlaceholder: 导出到时区
+  federated: 联合的
+  fields: 模块字段
+  filter:
+    addField: 添加新的过滤字段
+    addFilter: + 添加过滤器
+    byValue: 根据字段值过滤记录
+    conditions:
+      and: AND
+      or: OR
+    deletedRecords: 删除的记录
+    field: 过滤字段
+    fieldPlaceholder: 选择一个字段
+    fieldValue: 字段值
+    fieldValuePlaceholder: 输入字段过滤器
+    including: 包括
+    label: 过滤器
+    note: '注意：如果字段值未定义，过滤器将查找该字段值未定义的记录。'
+    only: 仅
+    operators:
+      contains: 包含
+      equal: 相等
+      greaterThan: 大于
+      lessThan: 小于
+      notEqual: 不相等
+    title: 记录列表过滤器
+    update: 更新过滤器
+    where: Where
+    without: 没有
+  hideRecordCloneButton: 隐藏克隆记录按钮
+  hideRecordEditButton: 隐藏编辑记录按钮
+  hideRecordPermissionsButton: 隐藏记录权限按钮
+  hideRecordReminderButton: 隐藏记录提醒按钮
+  hideRecordViewButton: 隐藏查看记录按钮
+  import:
+    dropzoneFileAdded: '{{name}} 已上传，可以导入 ({{count}} 条记录）'
+    dropzoneFileAdded_plural: '{{name}} 已上传，可以导入 ({{count}} 条记录）'
+    dropzoneLabel: 在此处单击或拖放文件以上传（.csv 或 JSON）
+    failed: '导入过程中出现问题。请重试：{{failReason}}'
+    fileColumns: 文件列
+    hasRequiredFileFields: '这个模块有必需的文件上传字段'
+    matchFields: '将导入的列与现有的匹配：'
+    moduleFields: 模块字段
+    onError: '如果任何记录导入失败：'
+    onErrorFail: 取消导入
+    onErrorSkip: 跳过记录
+    pickModuleField: 选择一个模块字段
+    progressRatio: '{{completed}} / {{entryCount}} 行'
+    report:
+      count: 记录数
+      detectedErrors: 检测到的错误
+      error: 错误
+      failedEntries: 失败的源条目
+      failedEntriesLine: 条目
+      failedEntriesLines: 条目从到（包括）
+      failedRecords: 失败的记录
+      finishedAt: 完成于
+      importedRecords: 导入的记录
+      startedAt: 开始于
+      title: 记录导入错误报告
+      totalRecords: 总记录
+    success: 导入成功。
+    to: 导入到  {{modulename}}
+    uploadFile: 上传要导入的文件（.csv 或 JSON 格式）
+  label: 记录清单
+  moduleFootnote: 没有 {{0}}  的模块只能在记录列表中用作内联编辑器
+  noRecords: 没有符合您要求的记录
+  pagination:
+    next: 下一个
+    prev: 上一个
+    showing: '{{from}} - {{to}} of {{count}} 条记录'
+    single: 单条记录
+    single_plural: '{{count}} 条记录'
+  positionField:
+    footnote: 记录将根据该字段进行排序
+    label: 记录排序字段
+  preview:
+    addRecordButton: 添加记录按钮
+    bePaged: '{{0}} 被分页。'
+    isDisabled: '{{0}} 已禁用。'
+    isEnabled: '{{0}} 已启用。'
+    isHidden: '{{0}} 已隐藏。'
+    isShown: '{{0}} 已显示'
+    moduleNotSelected: 带有记录表的块，未选择模块。
+    recordFromModule: '显示来自 {{0}} 模块的记录，列： {{1}}'
+    recordsPerPage: '每页显示 {{0}} 条记录。'
+    resultsCan: 结果可以
+    resultsCant: 结果不能
+    resultsPrefiltered: '结果经过预过滤：'
+    searchInput: 搜索输入框
+    sorting: 排序
+    tableHeader: 表头
+    usersSearchThrough: 用户搜索记录。
+    usersSee: 用户看到 {{0}}.
+    withPresortedRecords: 带有预排序  ({{0}}) 记录。
+  record:
+    draggable: 可以拖放记录以对其进行排序
+    fullPageNavigation: 整页导航
+    hideAddButton: 隐藏添加记录按钮
+    hideImportButton: 隐藏导入记录按钮
+    hidePaging: 隐藏分页
+    inlineEditor: 内联编辑器
+    inlineEditorAllow: 允许内联记录编辑
+    inlineEditorFootnote: 同一页面只能有一个具有相同模块的内联编辑器
+    newLabel: 新记录
+    noPermission: 没有读取记录的权限
+    perPage: 每页的记录
+    prefilterFootnote: 支持简化的 SQL 条件 (WHERE ...) 语法。评估  {{0}}, {{1}} 和 {{2}} 等变量（如果可用）
+    prefilterHideSearch: 隐藏搜索框
+    prefilterLabel: 预过滤记录
+    prefilterPlaceholder: field1 = 1 AND field2 = 232
+    presortFootnote: 支持简化的 SQL 条件 (ORDER BY ...) 语法。
+    presortHideSort: 隐藏排序
+    presortLabel: 预排序记录
+    presortPlaceholder: field1 DESC, field2 ASC
+    showTotalCount: 显示总记录数
+  recordPage: 记录页面
+  refField:
+    footnote: 将记录与父记录链接的字段
+    label: 父字段
+  selectable: 启用记录选择
+  selected: '{{count}} of {{total}}  条记录被选中'
+recordOrganizer:
+  descriptionField:
+    footnote: 字段值将用作记录描述
+    label: 描述字段
+  group:
+    footnote: 将设置为关键字段的值。这不影响过滤。确保在需要的地方指定预过滤器。
+    label: Key value
+  groupField:
+    footnote: 将记录移入记录组织器时其值将发生变化的字段 organizer
+    label: 关键字段
+  label: 记录管理器
+  labelField:
+    footnote: 字段值将用作记录标签
+    label: 标签字段
+  noRecords: 与记录组织者链接的模块中没有记录。将记录拖放到此处。
+  notConfigured: 记录管理器配置不正确。
+  positionField:
+    footnote: 记录将根据该字段进行排序
+    label: 记录排序字段
+  preview:
+    label: '模块 {{0}} 的记录管理器块。标签字段 {{1}}，描述字段 {{2}}。值设置字段：{{3}}，按位置字段排序：{{4}}。'
+    moduleNotSelected: 未选择记录管理器模块。
+socialFeed:
+  label: 推特提要
+  noInput: 没有用于显示社交提要的输入...
+  preview:
+    socialFeed: Twitterblo 提要
+  twitterProfileField: 包含记录的 Twitter 个人资料 URL 的字段
+  twitterProfileLabel: 列表页面的 Twitter 个人资料 URL，即 (https://twitter.com/bloomberg)
+selectBlockFootnote: 对于非记录页面，某些类型可能会被禁用
+field:
+  noPermission: 没有读取字段值的权限
+  selector:
+    available: 可用字段
+    systemField: (系统字段）
+comment:
+  label: '评论'
+  titleField:
+    label: '标题字段'
+    footnote: '字段值将用作记录标题'
+  contentField:
+    label: '内容字段'
+    footnote: '字段值将用作记录内容'
+  titleInput: '输入评论标题'
+  contentInput: '输入评论内容'
+  submit: '提交'
+  sortDirection:
+    label: '排序方向'
+    footnote: '字段值将用作排序方向参考'
+    asc: 'ASC'
+    desc: 'DESC'
+  referenceField:
+    label: '参考字段'
+    footnote: '字段值将用作参考'
+navigation:
+  chart: 图表

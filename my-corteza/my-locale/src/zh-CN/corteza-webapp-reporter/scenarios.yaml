@@ -1,0 +1,5 @@
+datasource: 数据源
+label: 标签
+none: None
+prefilter: 前置过滤器
+scenario-name: '场景名称...'

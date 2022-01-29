@@ -1,0 +1,87 @@
+editor:
+  info:
+    confirmEmail: 确认电子邮件地址
+    createdAt: 创建于
+    delete: 删除
+    deletedAt: 删除于
+    email: 电子邮件
+    handle: 句柄
+    placeholder-handle: 句柄（a - z，0 - 9，下划线，破折号）
+    invalid-handle-characters: 应至少有 2 个字符长并以字母开头。只能包含字母、数字、破折号、下划线和点
+    name: 全称
+    revokeAllSession: 撤销所有活动会话
+    suspend: 暂停
+    suspendedAt: 暂停于
+    title: 基本信息
+    undelete: 取消删除
+    unsuspend: 取消暂停
+    updatedAt: 更新于
+  mfa:
+    TOTP:
+      disabled:
+        text: 用户未配置 TOTP 保护。
+      enabled:
+        text: 用户配置的 TOTP 保护身份验证移动应用程序。
+      remove:
+        label: 删除
+    emailOTP:
+      disable:
+        label: 禁用
+      disabled:
+        text: |-
+          已为此用户禁用电子邮件 OTP 保护。
+          不会发送每次登录时带有安全代码的电子邮件。
+      enable:
+        label: 启用
+      enabled:
+        text: |-
+          已为此用户启用电子邮件 OTP 保护。
+          用户将在每次登录时收到带有安全码的电子邮件。
+    title: 多因素身份验证
+  new: 新
+  password:
+    confirm: 确认密码
+    length: 密码长度必须至少为  {{length}} 个字符！
+    missmatch: 密码必须匹配
+    new: 新密码
+    title: 密码
+    removePassword: 删除密码
+  permissions: 权限
+  roles:
+    add: 添加
+    count: 角色
+    remove: 移除
+    title: 角色成员资格
+    unnamed: 未命名的角色
+  title:
+    create: 创建用户
+    edit: 编辑用户
+list:
+  columns:
+    actions: ""
+    createdAt: 已创建
+    email: 电子邮件
+    enabled: 启用
+    handle: 句柄
+    name: 姓名
+  filterForm:
+    deleted:
+      label: 已删除用户
+    excluded:
+      label: 没有
+    exclusive:
+      label: 只有
+    inclusive:
+      label: 包括
+    query:
+      label: 过滤用户列表
+      placeholder: 按姓名、电子邮件过滤用户
+    suspended:
+      label: 暂停用户
+  loading: 加载用户
+  new: 新
+  numFound: '{{count}} 个用户找到'
+  numFound_plural: '找到 {{count}} 个用户'
+  permissions: 权限
+  title: 用户
+  yaml: YAML

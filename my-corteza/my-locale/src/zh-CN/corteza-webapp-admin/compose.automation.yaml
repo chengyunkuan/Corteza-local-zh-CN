@@ -1,0 +1,6 @@
+list:
+  columns:
+    events: 事件触发
+    label: 标签
+    name: 标签
+  title: 撰写自动化

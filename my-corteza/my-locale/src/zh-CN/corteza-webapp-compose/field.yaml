@@ -1,0 +1,163 @@
+defaultFieldValue: 默认字段值
+defaultValue: 默认字段值
+kind:
+  bool:
+    checkedValueLabel: 选中时的值
+    checkedValuePlaceholder: 选中的值
+    label: 复选框 (Y/N)
+    uncheckedValueLabel: 未选中时的值
+    uncheckedValuePlaceholder: 未选中的值
+  dateTime:
+    dateOnly: 仅日期
+    futureValuesOnly: 仅未来值
+    label: 日期和时间
+    outputFormat: '输出格式：'
+    outputFormatFootnote: 请参阅 {{0}} 了解格式化选项
+    pastValuesOnly: 仅过去值
+    relativeOutput: '输出相对值（例如：3天前）'
+    timeOnly: 仅时间
+    warning:
+      futureValuesOnly: 只保存未来的日期
+      pastValuesOnly: 仅保存过去的日期
+  email:
+    label: 电子邮件
+    preventToLink: 不要将电子邮件变成链接
+  file:
+    label: 文件
+    view:
+      gallery: 图像画廊
+      grid: 网格
+      list: 列表
+      maxSizeLabel: 最大文件大小
+      mimetypesFootnote: 'MIME 类型，用“,”分隔。示例： "text/plain,text/csv"'
+      mimetypesLabel: 文件类型允许列表
+      modeFootnote: 文件在记录页块中的表示方式
+      modeLabel: 查看模式
+      showName: 隐藏文件名
+      single: 单张图片
+  number:
+    exampleFormat: 格式
+    exampleInput: 输入
+    exampleResult: 结果
+    examplesLabel: '格式示例：'
+    formatLabel: 格式
+    formatPlaceholder: 格式
+    label: 数字
+    liveExample: 'Live 示例：'
+    precisionLabel: 精度
+    precisionPlaceholder: 精度
+    prefixLabel: 前缀
+    prefixPlaceholder: 前缀
+    suffixLabel: 后缀
+    suffixPlaceholder: 后缀
+  record:
+    currentUnnamedModule: (当前未命名的模块)
+    label: 记录
+    moduleLabel: 模块名称
+    modulePlaceholder: 选择模块
+    prefilterFootnote: 支持简化的 SQL 条件 (WHERE ...) 语法。评估 {{0}}, {{1}} and {{2}} 等变量（如果可用）
+    prefilterLabel: 预过滤记录
+    prefilterPlaceholder: field1 = 1 AND field2 = 232
+    queryFieldsLabel: 搜索时查询字段
+    recordFieldLabel: 来自字段的记录标签
+    recordFieldPlaceholder: 选择字段
+    suggestionPlaceholder: 开始输入以搜索记录
+  select:
+    label: 选择
+    optionAdd: 添加
+    optionLabelPlaceholder: 标签
+    optionNotSelected: 未选择任何选项
+    optionRemove: 移除
+    optionType:
+      default: 单输入
+      each: 每个值的输入
+      label: 多值输入类型
+      multiple: 多选
+    optionValuePlaceholder: 值
+    optionsLabel: 可供选择的选项
+    placeholder: 单击此处选择一个选项
+  string:
+    label: 字符串
+    multiLine: 多行
+    richText: 使用富文本编辑器
+  url:
+    label: URL
+    preventToLink: 不要将 Url 变成链接
+    sshOnly: 只允许 SSL (https) Url
+    trimHash: 从 URL 中修剪'#'
+    trimQuestionMark: 从 URL 中修剪'?' 
+    trimToDomain: 仅将 URL 修剪到域
+  user:
+    label: 用户
+    na: N/A
+    presetWithCurrentUser: 使用当前用户预设
+    suggestionPlaceholder: 开始输入以通过电子邮件或姓
+    roles:
+      label: 用户角色
+      placeholder: 按用户角色过滤
+noPermission: 没有读取字段值的权限
+options:
+  description:
+    label:
+      default: 描述
+      edit: 描述编辑
+      view: 描述视图
+    placeholder:
+      default: 描述文本...
+      edit: 编辑记录字段时的描述...
+      view: 查看记录字段时的描述...
+    same: 在查看和编辑时显示相同的描述
+  hint:
+    label:
+      default: 提示
+      edit: 提示编辑
+      view: 提示视图
+    placeholder:
+      default: 提示文本...
+      edit: 编辑记录字段时的提示...
+      view: 查看记录字段时的提示...
+    same: 在查看和编辑时显示相同的提示
+  multiDelimiter:
+    comma: 用逗号分隔
+    custom: 自定义分隔符
+    customLabel: 或者使用自定义分隔符
+    customPlaceholder: 输入自定义分隔符
+    label: 多值分隔符
+    newline: 每个值换行
+sanitizers:
+  add: + 添加
+  description: 在验证之前从文本中修剪空格或进行其他类型的值操作
+  examples: 例子
+  expression:
+    placeholder: 修剪（值）
+  label: 价值净化
+selector:
+  search: 在此处键入以在模块字段中搜索
+  available: 可用字段
+  selectAll: 全选
+  selected: 选定的字段
+  systemField: (系统字段)
+  unselectAll: 取消全选
+system:
+  createdAt: 创建于
+  createdBy: 创建者
+  deletedAt: 删除于
+  deletedBy: 删除者
+  ownedBy: 拥有者
+  updatedAt: 更新于
+  updatedBy: 更新者
+validators:
+  description: 测试输入值有效性的一组表达式和错误对。
+  disableBuiltIn: 禁用内置验证器
+  error:
+    placeholder: 表达式为 true 时显示的文本
+  expression:
+    placeholder: value == ""
+  label: 值验证
+valueExpr:
+  description: 插入计算数值或组合并操作文本值的公式或表达式
+  label: 字段值表达式
+  placeholder: ((floor(numField1) + numField2) / 10) + 0.5
+label:
+  required: 必填
+  multi: 多值

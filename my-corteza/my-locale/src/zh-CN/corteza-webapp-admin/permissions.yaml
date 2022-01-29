@@ -1,0 +1,464 @@
+# Admin "permissions" translation namespace
+# Holds mix of translations for two ui component types:
+#  - inline permission table (admin interface only)
+#  - modal permission table (common perm. interface)
+ui:
+  reset-back: 重置回 "{{current}}"
+  save-changes: 保存更改
+  set-for: 为 {{target}} 设置权限
+
+  access:
+    allow: 允许
+    inherit: 继承
+    deny: 拒绝
+
+  #############################################################################
+  # Inline permission table UI:
+  click-on-cell-to-allow: 单击权限/角色单元格以允许特定操作
+  alt-click-to-deny: 使用 Alt-Click 设置明确拒绝操作
+
+  not-allowed: 不允许设置权限
+  loading: 加载权限
+
+  role:
+    add-new: 添加新角色
+    add: 添加角色
+    no-role-selected: 没有选择角色
+
+  title:
+    automation: 自动化权限
+    system: 系统权限
+    compose: 撰写权限
+    federation: 联合权限
+
+  clone:
+    clone: 克隆
+    label: 克隆权限
+    title: 克隆权限
+    description: 这将克隆当前角色的所有权限并将它们应用到选定的
+
+resources:
+  automation:
+    component:
+      label: 自动化组件
+      operations:
+        grant:
+          title: 授予自动化权限
+        sessions.search:
+          title: 搜索会话
+        triggers.search:
+          title: 搜索触发器
+        workflow.create:
+          title: 创建新工作流
+        workflows.search:
+          title: 搜索工作流
+        resource-translations.manage:
+          title: 管理资源翻译
+
+    workflow:
+      label: 工作流
+      all: 所有工作流
+      specific: 工作流 "{{target}}"
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除此工作流
+          title: 删除任何工作流
+        execute:
+          description: '默认：拒绝'
+          specific: 执行此工作流
+          title: 执行任何工作流
+        read:
+          description: '默认：拒绝'
+          specific: 阅读此工作流程
+          title: 阅读任何工作流程
+        sessions.manage:
+          description: '默认：拒绝'
+          specific: 管理此工作流的会话
+          title: 管理所有会话
+        triggers.manage:
+          description: '默认：拒绝'
+          specific: 管理此工作流的触发器
+          title: 管理所有触发器
+        undelete:
+          description: '默认：拒绝'
+          specific: 取消删除此工作流程
+          title: 取消删除任何工作流程
+        update:
+          description: '默认：拒绝'
+          specific: 更新此工作流程
+          title: 更新任何工作流程
+
+  system:
+    component:
+      label: 系统组件
+      operations:
+        action-log.read:
+          title: 访问操作日志
+        application.create:
+          title: 创建新应用程序
+        application.flag.global:
+          title: 可以为每个人钉住申请
+        application.flag.self:
+          title: 可以为自己钉住申请
+        applications.search:
+          title: 列出和搜索应用程序
+        auth-client.create:
+          title: 创建新的身份验证客户端
+        auth-clients.search:
+          title: 列出和搜索身份验证客户端
+        apigw-route.create:
+          title: 创建新路由
+        apigw-routes.search:
+          title: 列出和搜索路由
+        apigw-filter.create:
+          title: 创建新过滤器
+        apigw-filters.search:
+          title: 列表和搜索过滤器
+        grant:
+          title: 授予系统组件权限
+        queue.create:
+          title: 创建新的消息队列
+        queues.search:
+          title: 列出和搜索消息队列
+        reminder.assign:
+          title: 允许分配提醒
+        role.create:
+          title: 创建新角色
+        roles.search:
+          title: 列出和搜索角色
+        settings.manage:
+          title: 管理所有设置
+        settings.read:
+          title: 访问所有设置
+        template.create:
+          title: 创建新模板
+        templates.search:
+          title: 列表和搜索模板
+        user.create:
+          title: 创建新用户
+        users.search:
+          title: 列出和搜索用户
+        resource-translations.manage:
+          title: 管理资源翻译
+        report.create:
+          title: 创建新报告
+        reports.search:
+          title: 列出和搜索报告
+
+    application:
+      label: 应用
+      all: 所有应用程序
+      specific: 应用程序 "{{target}}"
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除 {{target}}
+          title: 删除任何应用程序
+        read:
+          description: '默认：拒绝'
+          specific: 阅读 {{target}}
+          title: 阅读任何应用程序
+        update:
+          description: '默认：拒绝'
+          specific: 更新 {{target}}
+          title: 更新任何应用程序
+
+    apigw-route:
+      label: 网关路由
+      all: 所有路线
+      specific: 路由 "{{target}}"
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除 {{target}}
+          title: 删除任何路由
+        read:
+          description: '默认：拒绝'
+          specific: 阅读 {{target}}
+          title: 阅读任何路由
+        update:
+          description: '默认：拒绝'
+          specific: 更新 {{target}}
+          title: 更新任何路由
+
+    auth-client:
+      label: 认证客户端
+      all: 所有身份验证客户端
+      specific: 身份验证客户端 "{{target}}"
+      operations:
+        authorize:
+          description: '用户可以授权（使用）这个客户端。默认值：拒绝'
+          specific: 授权客户端 "{{target}}
+          title: 授权任何客户端
+        delete:
+          description: '默认：拒绝'
+          specific: 删除客户端 "{{target}}
+          title: 删除任何客户端
+        read:
+          description: '默认：拒绝'
+          specific: 读取客户端 "{{target}}
+          title: 读取任何客户端
+        update:
+          description: '默认：拒绝'
+          specific: 更新客户端 "{{target}}
+          title: 更新任何客户端
+
+    role:
+      label: 角色
+      all: 所有角色
+      specific: 角色 "{{target}}"
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除 {{target}}
+          title: 删除任何角色
+        members.manage:
+          description: '默认：拒绝'
+          specific: 管理 {{target}} 的成员
+          title: 管理任何角色的成员
+        read:
+          description: '默认：拒绝'
+          specific: 阅读 {{target}}
+          title: 阅读任意角色
+        update:
+          description: '默认：拒绝'
+          specific: 更新 {{target}}
+          title: 更新任何角色
+
+    queue:
+      label: 队列
+      all: 所有队列
+      specific: 队列 "{{target}}"
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除 {{target}}
+          title: 删除任何角色
+        members.manage:
+          description: '默认：拒绝'
+          specific: 管理 {{target}} 的成员
+          title: 管理任何角色的成员
+        read:
+          description: '默认：拒绝'
+          specific: 阅读 {{target}}
+          title: 阅读任意角色
+        update:
+          description: '默认：拒绝'
+          specific: 更新 {{target}}
+          title: 更新任何角色
+        queue.read:
+          description: '默认：拒绝'
+          specific: 阅读来自 {{target}} 的消息
+          title: 阅读来自任何角色的消息
+        queue.write:
+          description: '默认：拒绝'
+          specific: 向 {{target}} 写消息
+          title: 给任何角色写消息
+
+    template:
+      label: 模板
+      all: 所有模板
+      specific: 模板 "{{target}}"
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除 {{target}}
+          title: 删除任何模板
+        read:
+          description: '默认：拒绝'
+          specific: 阅读 {{target}}
+          title: 阅读任何模板
+        render:
+          description: '默认：拒绝'
+          specific: 渲染 {{target}}
+          title: 渲染任何模板
+        update:
+          description: '默认：拒绝'
+          specific: 更新 {{target}}
+          title: 更新任何模板
+
+
+    report:
+      label: 报告
+      all: 所有报告
+      specific: 报告 "{{target}}"
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除 {{target}}
+          title: 删除任何报告
+        read:
+          description: '默认：拒绝'
+          specific: 阅读 {{target}}
+          title: 阅读任何报告
+        run:
+          description: '默认：拒绝'
+          specific: 运行 {{target}}
+          title: 运行任何报告
+        update:
+          description: '默认：拒绝'
+          specific: 更新 {{target}}
+          title: 更新任何报告
+
+    user:
+      label: 用户
+      all: 所有用户
+      specific: 用户 "{{target}}"
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除 {{target}}
+          title: 删除任何用户
+        email.unmask:
+          description: '默认：拒绝'
+          specific: 显示 {{target}} 的电子邮件详细信息
+          title: 显示任何用户的电子邮件详细信息
+        name.unmask:
+          description: '默认：拒绝'
+          specific: 显示 {{target}} 的名称详细信息
+          title: 显示任何用户的姓名详细信息
+        impersonate:
+          description: '默认：拒绝'
+          specific: 模拟此用户 {{target}}
+          title: 模拟任何用户
+        read:
+          description: '默认：拒绝'
+          specific: 阅读 {{target}}
+          title: 读取任何用户
+        suspend:
+          description: '默认：拒绝'
+          specific: 暂停 {{target}}
+          title: 暂停任何用户
+        unsuspend:
+          description: '默认：拒绝'
+          specific: 取消暂停 {{target}}
+          title: 取消暂停任何用户
+        update:
+          description: '默认：拒绝'
+          specific: 更新 {{target}}
+          title: 更新任何用户
+
+  federation:
+    component:
+      label: 联合组件
+      operations:
+        grant:
+          title: 授予联合组件的权限
+        node.create:
+          title: 创建节点
+        nodes.search:
+          title: 列出或创建节点
+        pair:
+          title: 配对节点
+        settings.manage:
+          title: 管理所有设置
+        settings.read:
+          title: 访问所有设置
+
+    node:
+      label: 节点
+      operations:
+        manage:
+          title: 管理任意节点
+        module.create:
+          title: 创建模块
+
+    exposed-module:
+      label: 模块
+      operations:
+        manage:
+          title: 管理任何模块
+
+    shared-module:
+      label: 模块
+      operations:
+        map:
+          title: 映射任何模块
+
+  compose:
+    component:
+      label: 撰写组件
+      operations:
+        grant:
+          title: 授予撰写组件的权限
+        namespace.create:
+          title: 创建命名空间
+        namespaces.search:
+          title: 列出和搜索命名空间
+        settings.manage:
+          title: 管理所有设置
+        settings.read:
+          title: 访问所有设置
+        resource-translations.manage:
+          title: 管理资源翻译
+    chart:
+      label: 图表
+      operations:
+        delete:
+          title: 删除任何图表
+        read:
+          title: 阅读任何图表
+        update:
+          title: 更新任何图表
+    module:
+      label: 模块
+      operations:
+        delete:
+          title: 删除任何模块
+        read:
+          title: 阅读任何模块
+        record.create:
+          title: 在任意模块下创建记录
+        records.search:
+          title: 列出和搜索任意模块下的记录
+        update:
+          title: 更新任何模块
+    module-field:
+      label: 模块字段
+      operations:
+        record.value.read:
+          title: 读取任何模块字段
+        record.value.update:
+          title: 更新任何模块字段
+    namespace:
+      label: 命名空间
+      operations:
+        chart.create:
+          title: 在任意命名空间下创建图表
+        charts.search:
+          title: 列出和搜索任意命名空间下的图表
+        delete:
+          title: 删除任何命名空间
+        manage:
+          title: 管理任何命名空间
+        module.create:
+          title: 在任意命名空间下创建模块
+        modules.search:
+          title: 列出和搜索任何命名空间下的模块
+        page.create:
+          title: 在任意命名空间下创建页面
+        pages.search:
+          title: 列出和搜索任意命名空间下的页面
+        read:
+          title: 访问任何命名空间
+        update:
+          title: 更新任何命名空间
+    page:
+      label: 页面
+      operations:
+        delete:
+          title: 删除任何页面
+        read:
+          title: 阅读任何页面
+        update:
+          title: 更新任何页面
+    record:
+      label: 记录
+      operations:
+        delete:
+          title: 删除任何记录
+        read:
+          title: 读取任何记录
+        update:
+          title: 更新任何记录 

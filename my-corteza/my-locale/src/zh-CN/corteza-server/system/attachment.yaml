@@ -1,0 +1,9 @@
+errors:
+  failedToExtractMimeType: 无法提取 MIME 类型
+  failedToProcessImage: 无法处理图像
+  failedToStoreFile: 无法提取存储文件
+  invalidID: 无效的 ID
+  notAllowedToCreate: 不允许创建附件
+  notAllowedToCreateEmptyAttachment: 不允许创建空附件
+  notAllowedToListAttachments: 不允许列出附件
+  notFound: 找不到附件

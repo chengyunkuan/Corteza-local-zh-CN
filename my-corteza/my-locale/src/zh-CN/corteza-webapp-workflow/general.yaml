@@ -1,0 +1,22 @@
+description: 描述
+enabled: 启用
+error: 错误
+'error-expression': 错误消息（表达式）
+export: 导出
+general: 一般
+handle: H句柄
+import:
+  json: 导入 JSON
+  label: 导入
+  'reassign-run-as': "注意：运行为工作流属性不会被导入，应该重新分配"
+  'upload-files': 浏览或拖拽要上传的文件...
+label: 标签
+name: 名称
+'new-workflow': 新工作流
+offset: 偏移量
+permissions: 权限
+'search-workflows': 在此处键入以搜索所有工作流...
+'unnamed-workflow': 未命名的工作流程
+'workflow-list': 工作流列表
+save: 工作流列表
+cancel: 取消 

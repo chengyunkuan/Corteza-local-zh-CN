@@ -1,0 +1,45 @@
+list:
+  columns:
+    action: 行动
+    actor: 用户
+    description: 描述
+    requestOrigin: 来源
+    resource: 资源
+    severity: 严重性
+    timestamp: 时间戳
+  details:
+    id: 'ID'
+    header: '详细信息'
+    timestamp: '时间戳'
+    requestOrigin: '请求来源'
+    requestID: '请求 ID'
+    actorIPAddr: '参与者/用户'
+    actor: '用户'
+    actorID: '用户 ID'
+    severity: '严重性'
+    resource: '资源'
+    action: '行动'
+    headerAdditional: '附加信息'
+    description: '描述'
+    error: '错误'
+  severity:
+    emergency: '紧急情况'
+    alert: '警报'
+    critical: '关键'
+    error: '错误'
+    warning: '警告'
+    notice: '通知'
+    info: '信息'
+    debug: '调试'
+  filter:
+    action: 行动
+    actor: 用户 ID
+    choose-date: 选择一个日期
+    from: 开始于
+    no-time: 未选择时间
+    resource: 资源
+    search: 搜索
+    to: 结束于
+    today: 今天
+  loadOlder: 加载较旧的操作
+  title: 操作日志 

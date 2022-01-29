@@ -1,0 +1,14 @@
+template:
+  title: 授权
+  form:
+    greeting-paragraph: 你好
+    question-for-client: 客户端问题：想代表您在此 Corteza 服务器上执行操作。
+    buttons:
+      allow: 允许
+      deny: 拒绝
+  links:
+    mistake: 如果这是一个错误，请 <a href="{{link}}">注销</a>.
+  errors:
+    invalid-user: 无法继续使用未经授权的电子邮件，请访问 <a href="{{link}}">您的个人资料</a> 并解决问题。
+alerts:
+  denied: 无法授权 {{client}}，没有权限。

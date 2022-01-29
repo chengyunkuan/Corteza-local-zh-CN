@@ -1,0 +1,11 @@
+editor:
+  basic:
+    attachments:
+      max-size: 最大尺寸 (MB)
+      page: 页面附件
+      record: 记录附件
+      type:
+        description: 'MIME types, separated with ",". Example: "text/plain,text/csv"'
+        whitelist: 文件类型白名单
+    title: 基本
+  title: 撰写设置

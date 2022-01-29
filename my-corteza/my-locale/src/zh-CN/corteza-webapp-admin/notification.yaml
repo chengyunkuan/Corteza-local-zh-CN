@@ -1,0 +1,227 @@
+general:
+  error: 错误
+  success: 成功
+  warning: 警告
+notAllowed: 不允许访问管理区域。重定向
+list: 
+  load:
+    error: '无法加载资源列表'
+user:
+  fetch:
+    error: 用户获取失败
+  roles:
+    error: 角色获取失败
+  update:
+    success: 用户更新
+    error: 用户更新失败
+  create:
+    success: 用户创建
+    error: 用户创建失败
+  delete:
+    success: 用户删除
+    error: 用户删除失败
+  undelete:
+    success: 用户恢复
+    error: 用户恢复失败
+  membershipUpdate:
+    success: 成员资格更新
+    error: 成员资格更新失败
+  passwordChange:
+    success: 密码已更改
+    error: 密码更改失败
+  sessionsRevoke:
+    success: 会话被撤销
+    error: 会话撤销失败
+  suspend:
+    success: 用户暂停
+    error: 用户暂停失败
+  unsuspend:
+    success: 用户未暂停
+    error: 用户暂停失败
+role:
+  fetch:
+    error: 角色获取失败
+  create:
+    success: 角色创建
+    error: 角色创建失败
+  update:
+    success: 角色更新
+    error: 角色更新失败
+  delete:
+    success: 角色已删除
+    error: 角色删除失败
+  undelete:
+    success: 角色恢复
+    error: 角色恢复失败
+  archive:
+    success: 角色恢复失败
+    error: 角色存档失败
+  unarchive:
+    success: 角色解档
+    error: 角色解档失败
+  membershipUpdate:
+    success: 成员资格更新
+    error: 成员资格更新失败
+application:
+  fetch:
+    error: 应用程序获取失败
+  update:
+    success: 应用程序更新
+    error: 应用程序更新失败
+  create:
+    success: 应用程序创建
+    error: 应用程序创建失败
+  delete:
+    success: 应用程序已删除
+    error: 应用程序删除失败
+  undelete:
+    success: 应用程序恢复
+    error: 应用程序还原失败
+  assetsUpload:
+    error: 应用程序资产上传失败
+template:
+  fetch:
+    error: 模板获取失败
+  fetchPartials:
+    error: 部分模板获取失败
+  create:
+    success: 模板创建
+    error: 模板创建失败
+  update:
+    success: 模板更新
+    error: 模板更新失败
+  delete:
+    success: 模板已删除
+    error: 模板删除失败
+  undelete:
+    success: 模板删除失败
+    error: 模板恢复失败
+  driver:
+    error: 模板渲染驱动程序获取失败
+  preview:
+    error: 模板预览获取失败
+authclient:
+  fetch:
+    error: 身份验证客户端获取失败
+  create:
+    success: Auth Client 创建
+    error: 身份验证客户端创建失败
+  update:
+    success: 验证客户端更新
+    error: 身份验证客户端更新失败
+  delete:
+    success: 身份验证客户端已删除
+    error: 身份验证客户端删除失败
+  undelete:
+    success: 身份验证客户端已恢复
+    error: 身份验证客户端还原失败
+queue:
+  fetch:
+    error: 队列获取失败
+  create:
+    success: 队列获取失败
+    error: 队列获取失败
+  update:
+    success: 队列更新
+    error: 队列更新失败
+  delete:
+    success: 队列已删除
+    error: 队列删除失败
+gateway:
+  fetch:
+    error: 路由获取失败
+  create:
+    success: 路由创建
+    error: 路由创建失败
+  update:
+    success: 路由更新
+    error: 路由更新失败
+  filter:
+    fetch:
+      error: 过滤器获取失败
+    update:
+      success: 过滤器更新
+      error: 过滤器更新失败
+  delete:
+    success: 路由删除
+    error: 路由删除失败
+  undelete:
+    success: 路由恢复
+    error: 路由恢复失败
+workflow:
+  fetch:
+    error: 工作流获取失败
+  create:
+    success: 工作流创建
+    error: 工作流创建失败
+  update:
+    success: 工作流更新
+    error: 工作流创建失败
+  delete:
+    success: 工作流已删除
+    error: 工作流删除失败
+  undelete:
+    success: 工作流恢复
+    error: 工作流恢复失败
+session:
+  fetch:
+    error: 会话获取失败
+  trigger:
+    error: 触发器获取失败
+federation:
+  fetch:
+    error: 节点获取失败
+  create:
+    success: 节点创建
+    error: 节点创建失败
+  update:
+    success: 节点更新
+    error: 节点更新失败
+  delete:
+    success: 删除节点
+    error: 节点删除失败
+  undelete:
+    success: 节点恢复
+    error: 节点恢复失败
+  url:
+    error: 生成的 URL 获取失败
+  email:
+    success: 电子邮件已发送
+    error: 无法发送电子邮件
+  pair:
+    success: 节点配对
+    error: 无法配对节点
+  handshake:
+    success: 握手完成配对
+    error: 握手失败
+settings:
+  system:
+    fetch:
+      error: 系统设置获取失败
+    auth:
+      success: 身份验证设置已更新
+      error: 身份验证设置更新失败
+    external:
+      success: 外部设置更新
+      error: 外部设置更新失败
+  compose:
+    fetch:
+      error: Compose 设置获取失败
+    update:
+      success: Compose 设置已更新
+      error: Compose 设置更新失败
+  ui:
+    fetch:
+      error: UI 设置获取失败
+permissions:
+  fetch:
+    error: 权限获取失败
+  update:
+    success: 权限更新
+    error: 权限更新失败
+  clone:
+    success: 权限克隆
+    error: 权限克隆失败
+  role:
+    error: 无法添加角色
+

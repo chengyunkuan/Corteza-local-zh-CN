@@ -1,0 +1,3 @@
+template:
+  log-out: 注销成功。
+  log-in: 单击此处 <a href="{{link}}">登录</a>。

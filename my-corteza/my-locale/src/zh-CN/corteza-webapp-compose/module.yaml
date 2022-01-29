@@ -1,0 +1,109 @@
+allRecords:
+  create:
+    title: 为模块 "{{name}}" 创建记录
+  edit:
+    title: 编辑模块 "{{name}}" 的记录
+  label: 所有记录
+  list:
+    title: 模块 "{{name}}" 的所有记录
+  columns:
+    title: 配置列
+    description: 刷新页面后不会保存选择的列
+  view:
+    title: 查看模块 "{{name}}" 的记录
+block:
+  record:
+    recordDeleted: 这条记录已被删除
+    loadFailed: 无法加载记录
+createLabel: 新模块
+edit:
+  create: 创建模块
+  edit: 编辑模块
+  federationSettings:
+    downstream:
+      allFields: 所有字段
+      description: '将联合字段与现有字段匹配：'
+      title: 地图
+    error:
+      fetch:
+        data: 获取服务器数据时出错
+        exposed: 获取暴露模块信息时出错
+        shared: 获取共享模块信息时出错
+        mmap: 获取模块映射信息时出错
+        node: 获取节点信息时出错
+      persist:
+        exposed: 错误持久暴露的模块信息
+        shared: 保存共享模块信息时出错
+        mmap: 错误持久化模块映射信息
+    general:
+      receive: 从另一个组织（下游）接收新记录
+      send: 将新记录发送到联合网络（上游）
+      title: 一般
+    noNodes: 没有可用的联合服务器
+    noPermission: 没有权限管理暴露的模块
+    pickModule: 选择一个联合模块
+    pickModuleField: 选择一个模块字段
+    pickServer: 选择一个联合服务器
+    specificTitle: 联合设置 ({{handle}})
+    title: 联合设置
+    upstream:
+      copyFrom: 复制设置来源
+      allFields: 所有字段
+      description: 选择要与所选网络共享的字段
+      title: 暴露
+  fieldPermissions: 字段权限
+  manageRecordFields: 管理记录字段
+  moduleFieldSettings: 模块字段设置
+  moduleInfo: 模块信息
+  newField: 添加新字段
+  recordPermissions: 记录权限
+  reorderFields: 重新排序字段
+  specificFieldSettings: 字段设置 ({{name}})
+  steps:
+    recordList: 带有记录列表的页面
+    recordPage: 记录页面
+  systemFields: '系统字段：'
+  tooltip:
+    attributes: 选择字段是否可以包含多个值、是否为必填字段或是否包含敏感数据
+    name: 必须是 a-z/A-Z、0-9 或下划线
+    private: 敏感数据
+    required: 必填字段
+    title: 表单输入/数据列表中显示的名称
+federated: 联合的
+forModule:
+  recordList: 模块的记录列表
+  recordListPage: 模块的记录列表页面
+  recordPage: 模块的记录页面
+general:
+  fields: 模块字段
+  label:
+    attributes: 属性
+    handle: 句柄
+    name: 名称
+    permissions: 权限
+    title: 标题
+    type: 类型
+    saveAndClose: 保存并关闭
+  placeholder:
+    handle: 句柄（a - z，0 - 9，下划线，破折号）
+    sample: 示例
+    invalid-handle-characters: 应至少有 2 个字符长并以字母开头。只能包含字母、数字、破折号、下划线和点
+import: 模块导入
+navigation:
+  module: 模块
+newLabel: 模块名称 *
+newPlaceholder: 模块列表中使用的名称
+noModule: 没有模块
+noModuleFilter: 没有模块匹配您的搜索
+notification:
+  deleteFailed: 无法删除此模块
+  deleted: 模块已删除
+  saveFailed: 无法保存此模块
+  saved: 模块已保存
+  page:
+    createFailed: 无法创建页面
+recordPage:
+  create: 创建记录页面
+  edit: 页面构建器
+searchPlaceholder: 在此处键入以搜索此命名空间中的所有模块
+title: 模块列表

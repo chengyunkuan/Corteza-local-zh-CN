@@ -1,0 +1,64 @@
+application:
+  label: 在应用程序列表中启用
+clickOpen: 点击打开
+create: 创建新的命名空间
+import:
+  buttonLabel: 导入命名空间
+  title: 导入命名空间
+  uploadFileLabel: 上传要导入的文件（.zip 格式）
+  uploadFilePlaceholder: 点击或拖放文件上传（.zip 格式）
+  back: 背部
+  import: 导入
+description:
+  label: 命名空间描述
+  placeholder: 输入命名空间描述
+disabled: 命名空间被禁用
+edit: 编辑命名空间
+clone: 克隆命名空间
+cloneSuffix: 复制
+cloneWarning:
+  wfInclusion: 不克隆工作流和其他自动化。使用工作流编辑器界面克隆您需要的那些。
+export: 导出命名空间
+enabled:
+  label: 启用命名空间
+icon:
+  label: 图标
+  placeholder: 为命名空间图标选择图像或将其拖放到此处...
+label:
+  permissions: 权限
+logo:
+  label: Logo
+  placeholder: 选择名称空间徽标的图像或将其放在这里...
+  show: 显示 logo
+  preview: 预览
+  reset: 重置
+name:
+  label: 完整的命名空间名称 *
+  placeholder: 输入命名空间名称
+noResults: 未找到命名空间
+notification:
+  application:
+    createFailed: 无法创建命名空间应用程序
+    fetchFailed: 无法获取命名空间应用程序
+    saveFailed: 无法保存命名空间应用程序
+  assetUploadFailed: 无法上传附件
+  createFailed: 无法创建命名空间
+  deleteFailed: 无法删除此命名空间
+  disabled: 命名空间已禁用 - 重定向
+  saveFailed: 无法保存此命名空间
+  cloneFailed: 无法克隆此命名空间
+  saved: 已保存命名空间
+  imported: 命名空间导入
+  importFailed: 命名空间导入失败
+searchPlaceholder: 在此处键入以在所有命名空间中搜索...
+setPermissions: 设置命名空间权限
+slug:
+  description: 将在 URL 中使用短名称
+  label: 简称 *
+  placeholder: 输入命名空间的短名称
+  invalid-handle-characters: 应至少有 2 个字符长并以字母开头。只能包含字母、数字、破折号、下划线和点
+subtitle:
+  label: 副标题
+  placeholder: 输入命名空间副标题
+title: 低代码命名空间
+visit: 访问命名空间

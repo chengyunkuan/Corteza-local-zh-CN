@@ -1,0 +1,24 @@
+template:
+  title: 注册
+  form:
+    email:
+      label: 电子邮件
+      placeholder: email@domain.ltd
+    password:
+      label: 密码
+      placeholder: 密码
+    name:
+      label: 全名
+      placeholder: 您的全名
+    nickname:
+      label: 简称、昵称或名称
+      placeholder: 简称、昵称或名称
+    button:
+      sign-up: 提交
+  log-in: 已经有一个帐户？ <a href="{{link}}">登录</a>
+
+alerts:
+  signup-successful: 注册成功。
+  email-confirmed-logged-in: 电子邮件地址已确认，您现在已登录。
+  invalid-expired-token: 无效或过期的电子邮件确认令牌，请重新发送确认请求。
+  signup-disabled: 注册禁用

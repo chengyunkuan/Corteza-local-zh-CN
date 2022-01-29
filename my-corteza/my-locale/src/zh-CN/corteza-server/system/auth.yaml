@@ -1,0 +1,25 @@
+errors:
+  credentialsLinkedToInvalidUser: 凭据 {credentials.kind} 链接到禁用或删除的用户 {user}
+  disabledMFAWithEmailOTP: 禁用电子邮件 OTP 的多因素身份验证
+  disabledMFAWithTOTP: 禁用使用 TOTP 的多因素身份验证
+  enforcedMFAWithEmailOTP: 通过电子邮件强制执行OTP并且不能被禁用
+  enforcedMFAWithTOTP: TOTP被强制执行并且不能被禁用
+  externalDisabledByConfig: 禁用外部身份验证（使用外部身份验证提供程序）
+  failedUnconfirmedEmail: 系统需要在登录前确认电子邮件
+  internalLoginDisabledByConfig: 内部登录（用户名/密码）被禁用
+  internalSignupDisabledByConfig: 内部注册（用户名/密码）被禁用
+  invalidCredentials: 无效的用户名和密码组合
+  invalidEmailFormat: 无效的电子邮件
+  invalidEmailOTP: 无效代码
+  invalidHandle: 无效的句柄
+  invalidTOTP: 无效代码
+  invalidToken: 无效的令牌
+  notAllowedToConfigureTOTP: 不允许配置 TOTP
+  notAllowedToImpersonate: 不允许冒充该用户
+  notAllowedToRemoveTOTP: 不允许删除 TOTP
+  passwodResetFailedOldPasswordCheckFailed: 更改密码失败，旧密码不匹配
+  passwordChangeFailedForUnknownUser: 无法为未知用户更改密码
+  passwordNotSecure: 提供的密码不安全；使用带有更多特殊字符的更长密码
+  passwordResetDisabledByConfig: 禁用密码重置
+  profileWithoutValidEmail: 外部身份验证提供商返回的配置文件没有有效的电子邮件
+  unconfiguredTOTP: 未配置TOTP

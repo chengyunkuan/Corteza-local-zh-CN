@@ -1,0 +1,152 @@
+ui:
+  reset-back: 重置回 "{{current}}"
+  save-changes: 保存更改
+  set-for: 为 {{target}} 设置权限
+
+  access:
+    allow: 允许
+    inherit: 继承
+    deny: 拒绝
+
+resources:
+  compose:
+    chart:
+      all: 所有图表
+      specific: 图表 "{{target}}"
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除图表 "{{target}}"
+          title: 删除任何图表
+        read:
+          description: '默认：拒绝'
+          specific: 阅读图表 "{{target}}"
+          title: 阅读任何图表
+        update:
+          description: '默认：拒绝'
+          specific: 更新图表 "{{target}}"
+          title: 更新任何图表
+
+    module:
+      all: 所有模块
+      specific: 模块 "{{target}}"
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除模块 "{{target}}"
+          title: 删除任何模块
+        read:
+          description: '默认：拒绝'
+          specific: 读取模块 "{{target}}"
+          title: 阅读任何模块
+        record.create:
+          description: '默认：拒绝'
+          specific: 创建模块 "{{target}}" 的记录
+          title: 创建任何模块的记录
+        records.search:
+          description: '默认：拒绝'
+          specific: 模块 "{{target}}" 的列表和搜索记录
+          title: 任意模块的列表和搜索记录
+        update:
+          description: '默认：拒绝'
+          specific: 更新模块 "{{target}}"
+          title: 更新任何模块
+
+    module-field:
+      all: 所有模块字段
+      specific: 字段 "{{target}}"
+      all-specific: 模块 "{{ target }}" 的所有模块字段
+      operations:
+        record.value.read:
+          description: '默认：拒绝'
+          specific: '读取 "{{target}}" 记录字段 '
+          title: 读取任意模块的记录字段
+          all-specific: 读取模块 "{{ target }}" 的记录字段
+        record.value.update:
+          description: '默认：拒绝'
+          specific: '更新 "{{target}}" 记录字段 '
+          title: 更新任何模块的记录字段
+          all-specific: 更新模块 "{{ target }}" 的记录字段
+
+    namespace:
+      all: 所有命名空间
+      specific: 命名空间 "{{target}}"
+      operations:
+        chart.create:
+          description: ""
+          specific: 在命名空间 "{{target}}" 下创建图表
+          title: 在任意命名空间下创建图表
+        charts.search:
+          description: ""
+          specific: 在命名空间 "{{target}}" 下列出和搜索图表
+          title: 列出和搜索任意命名空间下的图表
+        delete:
+          description: ""
+          specific: 删除命名空间 "{{target}}"
+          title: 删除任何命名空间
+        manage:
+          description: 允许访问命名空间的管理页面
+          specific: 管理命名空间 "{{target}}"
+          title: 管理任何命名空间
+        module.create:
+          description: ""
+          specific: 在命名空间 "{{target}}" 下创建模块
+          title: 在任意命名空间下创建模块
+        modules.search:
+          description: ""
+          specific: 列出和搜索命名空间 "{{target}}" 下的模块
+          title: 列出和搜索任何命名空间下的模块
+        page.create:
+          description: ""
+          specific: 在命名空间 "{{target}}" 下创建页面
+          title: 在任意命名空间下创建页面
+        pages.search:
+          description: ""
+          specific: 在命名空间 "{{target}}" 下列出和搜索页面
+          title: 列出和搜索任意命名空间下的页面
+        read:
+          description: ""
+          specific: 读取命名空间 "{{target}}"
+          title: 读取命名空间
+        update:
+          description: ""
+          specific: 更新命名空间 "{{target}}"
+          title: 更新任何命名空间
+
+    page:
+      all: 所有页面
+      specific: 页面 "{{target}}"
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除页面 "{{target}}"
+          title: 删除任何页面
+        read:
+          description: '默认：拒绝'
+          specific: 阅读页面 "{{target}}"
+          title: 阅读任何页面
+        update:
+          description: '默认：拒绝'
+          specific: 更新页面 "{{target}}"
+          title: 更新任何页面
+
+    record:
+      all: 所有记录
+      specific: 记录 "{{target}}"
+      all-specific: 模块 "{{ target }}" 的所有记录
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除记录 "{{target}}"
+          title: 删除任意模块的记录
+          all-specific: 删除模块 "{{ target }}" 的记录
+        read:
+          description: '默认：拒绝'
+          specific: 读取记录 "{{target}}"
+          title: 读取任意模块的记录
+          all-specific: 读取记录 "{{ target }}" 的记录
+        update:
+          description: '默认：拒绝'
+          specific: 更新记录"{{target}}"
+          title: 更新任意模块的记录
+          all-specific: 更新模块 "{{ target }}" 的记录

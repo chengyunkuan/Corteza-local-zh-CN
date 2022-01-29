@@ -1,0 +1,37 @@
+'basic-controls':
+  action:
+    deselect: 取消选择
+    pan: Pan
+    select: 选择
+    'select-multiple': 多选
+    'zoom-in/out': 放大/缩小
+  shortcut:
+    'left-click': 
+      background: 左键单击背景
+      drag: 左键单击并拖动
+      label: 左键单击
+    'mouse-wheel': 鼠标滚轮
+    'right-click-drag': 右键单击并拖动
+'basic-controls-label': 基本控件
+'keyboard-shortcuts':
+  action:
+    'add-selection': 添加到选择
+    copy: 复制
+    cut: 剪切
+    'delete-selected-elements': 删除选定元素
+    nudge: 轻推
+    paste: 粘贴
+    redo: 重做
+    save: 保存
+    'show-guides': 显示指南
+    'show-help': 显示帮助
+    'reset-view-to-start-point': 将视图重置为起点
+    'select-all': 全选
+    undo: 撤消
+  shortcut:
+    'adjust-distance': 调整距离
+    'arrow-keys': 箭头键 - 使用
+    hold: 持有
+    'left-mouse-button': 鼠标左键
+'keyboard-shortcuts-label': 键盘快捷键
+'mac-users': 如果使用 MAC 键盘，请将 Ctrl 替换为 CMD 键

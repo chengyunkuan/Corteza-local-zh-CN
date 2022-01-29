@@ -1,0 +1,3 @@
+errors:
+  unauthorized: 未经授权
+  unauthorizedScope: 未授权范围

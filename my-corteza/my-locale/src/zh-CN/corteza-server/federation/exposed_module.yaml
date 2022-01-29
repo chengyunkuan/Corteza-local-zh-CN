@@ -1,0 +1,11 @@
+errors:
+  composeModuleNotFound: 没有找到Compose模块
+  composeNamespaceNotFound: 没有找到Compose名称空间
+  invalidID: 无效的 ID
+  nodeNotFound: 节点不存在
+  notAllowedToCreate: 不允许创建模块
+  notAllowedToManage: 不允许管理此模块
+  notFound: 模块不存在
+  notUnique: 节点不唯一
+  requestParametersInvalid: 请求参数无效
+  staleData: 陈旧数据

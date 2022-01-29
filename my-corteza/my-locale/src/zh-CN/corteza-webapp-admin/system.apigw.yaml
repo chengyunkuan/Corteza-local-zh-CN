@@ -1,0 +1,115 @@
+list:
+  title: '集成网关'
+  new: '新的'
+  permissions: '权限'
+  yaml: 'YAML'
+  loading: '加载路由'
+  numFound: '{{count}} 条路由被找到'
+  numFound_plural: '{{count}} 条路由被找到'
+
+  filterForm:
+    query:
+      label: '过滤路由列表'
+      placeholder: '按名称过滤路由'
+
+
+    excluded:
+      label: '没有'
+
+
+    inclusive:
+      label: '包括'
+
+
+    exclusive:
+      label: '只有'
+
+
+    deleted:
+      label: '已删除的路由'
+
+
+  columns:
+    endpoint: '端点'
+    createdAt: '创建'
+    enabled: '启用'
+    actions: ''
+
+editor:
+  title: '编辑路线'
+  new: '新的'
+  permissions: '权限'
+
+  info:
+    title: '基本信息'
+
+    id: 'ID'
+    endpoint: '端点'
+    method: '方法'
+    enabled: '启用'
+
+    delete: '删除'
+    undelete: '取消删除'
+    deletedAt: '删除于'
+
+    updatedAt: '更新于'
+    createdAt: '创建于'
+
+    tooltip: '端点必须以斜杠“/”开头，不能包含除下划线“_”和连字符“-”外的任何特殊字符'
+    validation:
+      slash: '端点必须以斜杠“/”开头'
+      minLength: '端点必须至少包含一个字符'
+      invalidCharacters: '端点包含无效字符'
+  filters:
+    title: '过滤器列表'
+    enabled: '启用'
+    disabled: '禁用'
+
+    modal:
+      title: '查询参数验证器'
+      ok: '保存并关闭'
+
+    step_title:
+      prefilter: '预过滤'
+      processer: '处理'
+      postfilter: '后过滤'
+
+    list:
+      remove: '删除'
+      filters: '过滤器'
+      status: '状态'
+      actions: '行动'
+      active: '活跃'
+      noFilters: '没有过滤器'
+
+    labels:
+      expr: '表达式'
+      location: 'URL'
+      workflow: '工作流程'
+      status: 'HTTP Status'
+      jsfunc: '函数'
+
+    httpStatus:
+      none: 无状态
+      '300': 300 - 多项选择
+      '301': 301 - 永久移动
+      '302': 302 - 找到
+      '303': 303 - 见其他
+      '304': 304 - 未修改
+      '307': 307 - 临时重定向
+      '308': 308 - 永久重定向
+
+    placeholders:
+      workflow: '选择一个工作流'
+
+    add: '添加'
+    addFilter: '添加过滤器'
+    params: '参数'
+    filterListEmpty: '过滤列表为空！'
+
+    help:
+      expression:
+        example: Example == "match string" && match(SecondParam, "^foo\\s.*$")
+        link: 文档
+
+

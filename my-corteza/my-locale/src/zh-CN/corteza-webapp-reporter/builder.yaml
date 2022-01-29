@@ -1,0 +1,67 @@
+add:
+  label: 添加
+  with-plus: '+ 添加'
+  datasource: 添加数据源
+  display-element: 添加显示元素
+ascending: 升序
+available: 可用
+block:
+  description: 块描述
+  save: 保存块
+  title: 块标题
+  configuration: 块配置
+datasource: 
+  label: 数据源
+  types:
+    load: 
+      label: 加载
+      loads-data-from-specified-resource-such-as-compose-records: 从指定资源加载数据，例如 Compose 记录
+    join:
+      label:  加入
+      joins-two-load-datasources-such-as-compose-record-selector: 使用将它们链接在一起的唯一列连接两个 Load 数据源，例如 Compose 记录选择器
+    group:
+      label: 组
+      groups-data-from-load-datasource-like-counting-number-of-accounts-with-same-status: 根据列值对来自负载数据源的数据进行分组并聚合它，例如计算具有相同的状态
+datasources:
+  label: 数据源
+  save: 保存数据源
+descending: 降序
+description: 描述
+display-elements:
+  types:
+    text: 文本
+    metric: 公制
+    table: 表
+    chart: 图表
+element: 元素
+elements: 元素
+filter-expression: 过滤器表达式
+general: 一般
+grab: '.grab'
+joined-datasource-handling: 加入数据源处理
+layout: 布局
+layout-options:
+  horizontal: 水平
+  vertical: 垂直
+limit: 限制
+no-blocks-added: 尚未添加任何块
+none: None
+or: Or
+pick-scenario: 选择一个场景
+prefilter: 前置过滤器
+presort-order: 预排序顺序
+report:
+  builder: 报告生成器
+  view: 查看报告
+save-button: 保存
+scenarios:
+  label: 情景
+  save: 保存场景
+title: 标题
+available-columns: 标题
+selected-columns: 选定的列
+type-to-search: 在此处键入以在列中搜索
+selected: 已选中
+select-all: 全选
+unselect-all: 取消全选
+value: 值

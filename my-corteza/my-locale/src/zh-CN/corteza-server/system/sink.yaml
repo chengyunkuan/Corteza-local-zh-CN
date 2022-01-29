@@ -1,0 +1,17 @@
+errors:
+  badSinkParamEncoding: 接收器参数的错误编码
+  contentLengthExceedsMaxAllowedSize: 内容长度超过最大尺寸限制
+  failedToCreateEvent: 无法从请求创建接收器事件
+  failedToProcess: 处理请求失败
+  failedToRespond: 未能响应请求
+  failedToSign: '无法签署请求参数: {err}'
+  invalidContentType: 无效的内容类型标头
+  invalidHttpMethod: 无效的 HTTP 方法
+  invalidPath: 无效路径
+  invalidSignature: 无效签名
+  invalidSignatureParam: 无效的接收器签名参数
+  invalidSinkRequestUrlParams: 无效的接收器请求 url 参数
+  misplacedSignature: 签名错位
+  missingSignature: 缺少接收器签名参数
+  processingError: 接收器请求处理错误
+  signatureExpired: 签名过期

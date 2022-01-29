@@ -1,0 +1,40 @@
+editor:
+  info:
+    consumer: 消费者
+    createdAt: 创建于
+    delete: 删除
+    deletedAt: 删除于
+    dispatch_events: 调度事件
+    dispatch_events_desc: 调度事件通知事件总线队列消息更改（新的，已处理的，...）
+    name: 队列名称
+    poll_delay: 轮询更改延迟
+    poll_delay_empty: '不使用轮询延迟；要启用，请使用持续时间格式（即：1h / 1m15s / 1h90s）'
+    poll_delay_set: 将使用轮询延迟；如果为空，则不会使用。
+    title: 基本信息
+    undelete: 取消删除
+    updatedAt: 更新于
+  new: 新
+  title:
+    edit: 编辑队列
+    new: 添加队列
+list:
+  columns:
+    actions: 行动
+    consumer: 消费者
+    createdAt: 创建于
+    queue: 队列
+  filterForm:
+    deleted:
+      label: 已删除的队列
+    excluded:
+      label: 没有
+    exclusive:
+      label: 只有
+    handle:
+      label: 过滤队列列表
+      placeholder: 按名称过滤队列
+    inclusive:
+      label: 包括
+  loading: 加载消息队列
+  new: 新
+  title: 消息队列 

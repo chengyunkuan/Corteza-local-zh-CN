@@ -1,0 +1,7 @@
+template:
+  authorize-client: 完成授权
+  class:
+    your-profile: 您的个人资料
+    security: 安全
+    login-session: 登录会话
+    authorized-clients: 授权客户

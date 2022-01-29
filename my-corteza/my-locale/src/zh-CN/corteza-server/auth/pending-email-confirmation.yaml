@@ -1,0 +1,4 @@
+template:
+  title: 确认您的电子邮件
+  instructions: 稍后您应该会收到电子邮件确认链接到您的收件箱。
+  links: <a href="{{signup}}">创建新帐户</a> or <a href="{{login}}">登录</a>.

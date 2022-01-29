@@ -1,0 +1,35 @@
+'configure-triggers': 确保正确配置所有触发步骤
+'confirm-unsaved-changes': 您有未保存的更改，您确定要退出吗？
+'delete-failed': 删除工作流失败
+'deleted-workflow': 工作流已删除
+error: " - 错误： "
+'event-type-not-found': 未找到事件类型
+'event-type-fetch-failed': 获取事件类型失败
+'failed-fetch-functions': 获取函数失败
+'failed-fetch-triggers': 获取触发器失败
+'failed-fetch-workflow': 无法获取工作流
+'failed-fetch-workflows': 无法获取工作流
+'failed-load-file': 加载文件失败
+'failed-save': 保存失败
+'failed-test': 测试失败
+'fetch-types-failed': 获取类型失败
+general:
+  error: 错误
+  success: 成功
+  warning: 警告
+import:
+  'failed-import': 导入失败
+  'imported-workflows': 导入的工作流
+  'skipped-workflows': 跳过的工作流程
+'imported-workflow': 导入的工作流
+'import-failed': 导入失败
+'initial-scope-load-failed': 无法加载初始范围
+'resolve-issues': 解决问题以测试工作流程
+'save-workflow': 先保存工作流进行测试
+'started-test': 工作流测试开始
+'test-completed': 测试完成
+'test-in-progress': 测试中
+'trace-unavailable': 跟踪不可用
+'trigger-paths-changed': 触发路径已更改
+'updated-workflow': 工作流已更新
+'workflow-test-completed': 工作流测试完成 

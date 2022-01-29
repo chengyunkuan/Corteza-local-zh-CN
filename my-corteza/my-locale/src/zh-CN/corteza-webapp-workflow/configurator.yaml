@@ -1,0 +1,8 @@
+configuration: 配置
+edge: 边缘
+target: 目标
+workflow:
+  'run-as': 运行于
+  'not-setup-properly': 当未明确设置时，工作流将由调用它的用户执行
+  invalid-handle-characters: 应至少有 2 个字符长并以字母开头。 只能包含字母、数字、破折号、下划线和点
+  placeholder-handle: 句柄（a - z，0 - 9，下划线，破折号）

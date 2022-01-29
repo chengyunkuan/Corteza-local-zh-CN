@@ -1,0 +1,6 @@
+errors:
+  invalidID: 无效的 ID
+  notAllowedToAssign: 不允许将提醒分配给其他用户
+  notAllowedToDismiss: 不允许关闭其他用户的提醒
+  notAllowedToRead: 不允许阅读其他用户的提醒
+  notFound: 未找到提醒

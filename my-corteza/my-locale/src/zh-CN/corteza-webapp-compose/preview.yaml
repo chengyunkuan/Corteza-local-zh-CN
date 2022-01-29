@@ -1,0 +1,14 @@
+general:
+  label:
+    attachmentFileInfo: '(文件大小: {{0}}, 已上传 {{1}})'
+    download: 下载
+  tooltip:
+    dragAndDrop: 拖放以更改顺序
+pdf:
+  clickToRetry: 点击重试
+  downloadForAll: 下载以查看所有页面
+  firstPagePreview: 首页预览
+  loading: 加载
+  noPages: 此文档为空
+  pageLoadFailed: 页面加载失败
+  pageLoading: 加载中 

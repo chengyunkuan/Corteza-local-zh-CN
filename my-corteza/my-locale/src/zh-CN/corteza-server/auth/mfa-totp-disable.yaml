@@ -1,0 +1,5 @@
+template:
+  title: 使用 TOTP 禁用双因素身份验证
+  instructions: 通过输入现有代码禁用。
+  button:
+    remove: 移除

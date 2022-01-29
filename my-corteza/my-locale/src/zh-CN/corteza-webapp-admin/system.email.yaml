@@ -1,0 +1,29 @@
+editor:
+  title: 电子邮件设置
+
+  server:
+    title: SMTP 服务器
+
+    host:
+      label: 服务器
+      description: 服务器名称和端口。 端口通常是 25（不安全）、465 或 587（安全）。
+
+    user:
+      label: 用户
+      description: 电子邮件服务器的可选身份验证凭据。
+
+    password:
+      label: 密码
+      description: 电子邮件服务器的可选身份验证凭据。
+
+    from:
+      label: 发件人地址
+      description: 选项，发送电子邮件时使用的默认发件人地址（FROM 标头）。
+
+    tlsInsecure:
+      label: 允许使用无效证书
+      description: 如果 Corteza 无法验证 SMTP 服务器使用的 TLS 证书，则抑制错误。
+
+    tlsServerName:
+      label: TLS 服务器名称
+      description: 可选，如果 SMTP 服务器使用与服务器名称不同的值。 

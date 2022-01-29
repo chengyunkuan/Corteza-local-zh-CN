@@ -1,0 +1,118 @@
+colorLabel: '{{count}} 种颜色'
+colorScheme:
+  label: 配色方案
+  placeholder: 选择一个配色方案
+configure:
+  reportsLabel: 报告
+general:
+  label:
+    title: 标签
+    add: 添加
+  value: 值
+  placeholder:
+    handle: 句柄（a - z，0 - 9，下划线，破折号）
+    invalid-handle-characters: 应至少有 2 个字符长并以字母开头。只能包含字母、数字、破折号、下划线和点
+edit:
+  dimension:
+    calculateLabelCount: 计算可以显示多少个标签
+    defaultValueFootnote: 将此值用于缺少维度值
+    defaultValueLabel: 默认值
+    fieldLabel: 字段
+    fieldPlaceholder: 选择一个维度字段
+    function:
+      date: 日期
+      label: 功能
+      month: 月
+      none: （无分组/桶）
+      placeholder: 选择维度修饰符（桶大小）
+      quarter: 季度
+      week: 周
+      year: 年
+    gaugeSteps: 步骤
+    label: 尺寸
+    skipMissingValues: 跳过缺失值
+  filter:
+    customize: 自定义过滤器
+    label: 过滤器
+    noFilter: （无过滤器）
+    recordsCreatedLastMonth: 上个月创建的记录
+    recordsCreatedLastQuarter: 上个季度创建的记录
+    recordsCreatedLastYear: 去年创建的记录
+    recordsCreatedThisMonth: 本月创建的记录
+    recordsCreatedThisQuarter: 本季度创建的记录
+    recordsCreatedThisYear: 今年创建的记录
+  loadData: 加载数据
+  metric:
+    add: 添加指标
+    fieldLabel: 字段
+    fieldPlaceholder: 选择指标字段
+    fillArea: 填充线条下方的区域
+    fixTooltips: 始终显示工具提示
+    function:
+      avg: 平均
+      label:  功能
+      max: 最大值
+      min: 最小值
+      placeholder: 选择指标聚合函数
+      std: 标准
+      sum: 总和
+    fx:
+      description: n - 当前数据集值，m - 先前数据集值
+      label: 后处理功能
+    gaugeColor: 颜色
+    label: 公制
+    labelColor: 标签颜色
+    labelLabel: 标签
+    labelPlaceholder: 总计
+    legend:
+      bottom: 底部
+      left: 左
+      positionPlaceholder: 图例位置
+      right: 右
+      top: 顶部
+    lineTension:
+      curvy: 大曲率
+      label: 线张力
+      medium: 中等曲率
+      placeholder: 线张力
+      slight: 小曲率
+      straight: 直线
+    output:
+      bar: 柱状
+      doughnut: 环状
+      label: 输出
+      line: 折线
+      pie: 饼状
+      placeholder: 选择图表输出
+    relative: 显示相对值
+    relativePrecision: '精度：'
+    title: 度量
+  module:
+    label: 模块
+    placeholder: 选择一个模块
+  title: 图表生成器
+  unconfiguredReport: 未配置的报告
+  yAxis:
+    axisOnRight: 将轴放在右侧
+    axisScaleFromZero: 始终从零开始轴缩放
+    label: Y轴
+    labelLabel: 轴标签
+    labelPlaceholder: 轴标签
+    logarithmicScale: 对数刻度
+    maxLabel: 最大值
+    maxPlaceholder: 最大值
+    minLabel: 最小值
+    minPlaceholder: 最小值
+import: '导入图表：'
+newLabel: '创建一个新图表：'
+name: 图表名称 *
+handle: 句柄 *
+notification:
+  loadFailed: 无法加载图表
+  saveFailed: 无法保存此图表
+  saved: 图表已保存
+  deleteFailed: 无法删除此图表
+  deleted: 图表已删除
+searchPlaceholder: 在此处键入以搜索此命名空间中的所有图表
+title: 图表列表
+undefined: 未定义  

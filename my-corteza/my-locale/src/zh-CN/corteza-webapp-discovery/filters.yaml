@@ -1,0 +1,12 @@
+title: 过滤器
+
+types:
+  title: 类型
+  namespace: 类型
+  module: 模块
+  user: 用户
+  record: 记录
+
+aggregation-groups:
+  modules: 记录
+  namespaces: 命名空间 

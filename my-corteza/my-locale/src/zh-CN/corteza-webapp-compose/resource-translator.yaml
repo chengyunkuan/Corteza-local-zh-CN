@@ -1,0 +1,17 @@
+translator:
+  save-changes: 保存
+  add-language: 添加语言
+  missing-translation: 缺少翻译
+
+resources:
+  namespace:
+    title: 命名空间 "{{ handle }}"
+  module:
+    title: 模块 "{{ handle }}"
+    field:
+      title: 模块字段 "{{ name }}"
+
+  page:
+    title: 页面 "{{ handle }}"
+    block:
+      title: "页面块 #{{ blockID }}"

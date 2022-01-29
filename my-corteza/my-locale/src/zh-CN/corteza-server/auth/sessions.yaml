@@ -1,0 +1,24 @@
+template:
+  title: 你的会话
+
+  list:
+    current: 当前会话
+    authorized-on: 授权于
+    same-machine: 本机
+    ip-address: IP地址
+    same-browser: 此浏览器
+    browser: 浏览器
+
+    expires: 过期
+    expired: 已过期
+    today: 今天
+    tomorrow: 1 天后
+    soon: 在 {{days}} 天后
+
+    delete: 删除此会话
+
+  delete-all: 删除所有会话
+
+alerts:
+  session-deleted: 会话已删除
+  delete-sessions-but-current: 除当前会话外的所有会话已删除

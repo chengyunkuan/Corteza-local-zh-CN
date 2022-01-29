@@ -1,0 +1,20 @@
+adminPanel: 管理面板
+automation: 自动化
+chart: 图表
+configuration: 配置
+help:
+  documentation: 配置
+  feedback: 发送反馈
+  forum: 帮助
+  version: 'Version:'
+module: 模块
+more: 更多
+namespace: 命名空间
+noPageTitle: 没有页面标题
+page: Pages
+publicPages: 公共页面
+userSettings:
+  changePassword: 更改密码
+  loggedInAs: 以 {{user}} 身份登录
+  logout: 注销
+  profile: 简介 

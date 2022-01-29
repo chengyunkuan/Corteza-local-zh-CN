@@ -1,0 +1,44 @@
+dashboard: 仪表盘
+
+system:
+  group: System
+  items:
+    users: 用户
+    actionlog: 活动日志
+    apigw: 集成网关
+    applications: 应用
+    authclients: 认证客户端
+    permissions: 权限
+    queues: 消息队列
+    roles: 角色
+    settings: 设置
+    email: 电子邮件设置
+    stats: 统计
+    templates: 模板
+
+compose:
+  group: Compose
+  items:
+    automation: 自动化
+    permissions: 权限
+    settings: 设置
+
+automation:
+  group: Automation
+  items:
+    permissions: 权限
+    scripts: Corredor 脚本
+    sessions: 会话
+    workflows: 工作流
+
+federation:
+  group: Federation
+  items:
+    nodes: 节点
+    permissions: 权限
+
+ui:
+  group: User interface
+  items:
+    settings: 设置
+

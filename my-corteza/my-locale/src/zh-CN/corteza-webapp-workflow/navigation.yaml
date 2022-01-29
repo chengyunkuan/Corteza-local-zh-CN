@@ -1,0 +1,11 @@
+help:
+  documentation: 文档
+  feedback: 发送反馈
+  forum: 帮助
+  version: 'Version:'
+
+userSettings:
+  changePassword: 更改密码
+  loggedInAs: 以 {{user}} 身份登录
+  logout: 注销
+  profile: 简介 

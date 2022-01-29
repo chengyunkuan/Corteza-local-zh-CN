@@ -1,0 +1,51 @@
+editor:
+  info:
+    createdAt: 创建于
+    delete: 删除
+    deletedAt: 删除于
+    enabled: 启用
+    handle: Handle
+    id: ID
+    name: 姓名
+    openBuilder: 打开构建器
+    title: 基本信息
+    undelete: 取消删除
+    updatedAt: 更新于
+  new: New
+  permissions: 权限
+  title:
+    create: 权限
+    edit: 编辑工作流程
+  triggers:
+    and: and
+    columns:
+      constraints: 约束
+      eventType: 事件
+      resourceType: 资源
+    title: 资源
+list:
+  columns:
+    actions: ""
+    createdAt: 创建
+    enabled: 启用
+    handle: Handle
+    name: 启用
+  filterForm:
+    deleted:
+      label: 已删除的工作流
+    excluded:
+      label: 无
+    exclusive:
+      label: 仅
+    inclusive:
+      label: 仅
+    query:
+      label: 过滤工作流列表
+      placeholder: 过滤工作流列表
+  loading: 加载工作流
+  new: 加载工作流
+  numFound: '{{count}} 个工作流找到'
+  numFound_plural: '找到 {{count}} 个工作流'
+  permissions: 权限
+  title: 工作流
+  yaml: YAML

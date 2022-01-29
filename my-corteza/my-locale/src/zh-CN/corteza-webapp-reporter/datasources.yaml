@@ -1,0 +1,23 @@
+
+add: 添加
+aggregate: 聚合
+compose-records: 撰写记录
+datasource-name: '数据源名称...'
+expression: 表达
+group-by: 分组依据
+label: 标签
+module: 标签
+name: 名称
+namespace: 命名空间
+new:
+  label: 新标签
+  name: 新名称
+none: None
+prefilter: 前置过滤器
+primary:
+  column: 主列
+  source: 主要来源
+secondary:
+  column: 辅助列
+  source: 次要来源
+source: 来源

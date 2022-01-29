@@ -1,0 +1,14 @@
+description: 描述
+handle-with-star: '句柄*'
+invalid-handle-characters: 应至少有 2 个字符长并以字母开头。 只能包含字母、数字、破折号、下划线和点
+name: 名称
+name-with-star: '名称*'
+new-report: 新报告
+permissions: 权限
+report:
+  create: 创建报告
+  builder: 报告生成器
+  description: 报告描述...
+  edit: 编辑报告
+placeholder-handle: 句柄（a - z，0 - 9，下划线，破折号）
+title: 编辑报告 

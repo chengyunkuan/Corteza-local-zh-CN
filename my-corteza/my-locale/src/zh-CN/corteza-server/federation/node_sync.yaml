@@ -1,0 +1,3 @@
+errors:
+  nodeNotFound: 节点不存在
+  notFound: node_sync 不存在

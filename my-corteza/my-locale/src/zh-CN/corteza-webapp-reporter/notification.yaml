@@ -1,0 +1,22 @@
+datasource:
+  describe-failed: 描述数据源失败
+general:
+  error: 错误
+  success: 成功
+  warning: 警告
+module:
+  fetch-failed: 获取模块失败
+namespace:
+  fetch-failed: 获取命名空间失败
+report:
+  createFailed: 创建报告失败
+  created: 已创建报告
+  delete: 报告已删除
+  deleteFailed: 删除报告失败
+  fetchFailed: 获取报告失败
+  listFetchFailed: 获取报告失败
+  run-failed: 运行报告失败
+  updateFailed: 更新报告失败
+  updated: 报告已更新
+  notAllowed:
+    read: 不允许阅读报告 

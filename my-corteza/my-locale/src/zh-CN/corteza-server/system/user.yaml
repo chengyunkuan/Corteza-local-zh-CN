@@ -1,0 +1,20 @@
+errors:
+  emailNotUnique: 电子邮件不是唯一的
+  handleNotUnique: 句柄不唯一
+  invalidEmail: 无效的电子邮件！ {{resource}}
+  invalidHandle: 无效的句柄
+  invalidID: 无效的 ID
+  notAllowedToCreate: 不允许创建用户
+  notAllowedToCreateSystem: 不允许创建系统用户
+  notAllowedToDelete: 不允许删除此用户
+  notAllowedToListUsers: 不允许列出用户
+  notAllowedToRead: 不允许读取此用户
+  notAllowedToSearch: 不允许列出或搜索用户
+  notAllowedToSuspend: 不允许暂停该用户
+  notAllowedToUndelete: 不允许取消删除该用户
+  notAllowedToUnsuspend: 不允许取消暂停该用户
+  notAllowedToUpdate: 不允许更新此用户
+  notAllowedToUpdateSystem: 不允许更新系统用户
+  notFound: 未找到用户
+  passwordNotSecure: 提供的密码不安全； 使用带有更多特殊字符的更长密码
+  usernameNotUnique: 用户名不是唯一的

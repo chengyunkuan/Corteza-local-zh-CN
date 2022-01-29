@@ -1,0 +1,5 @@
+errors:
+  failedToDownloadAttachment: '无法从 {attachmentURL}下载附件: {err}'
+  failedToLoadUser: 无法为 {recipient} 加载用户
+  invalidReceipientFormat: 无效的收件人格式 ({recipient})
+  noRecipients: 无法发送没有收件人的电子邮件

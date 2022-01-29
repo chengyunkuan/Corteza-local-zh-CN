@@ -1,0 +1,24 @@
+message:
+  noPages: 这个命名空间似乎还没有可见页面。
+  notifyAdministrator: 通知您的系统管理员。
+  startBuilding: 按照以下步骤开始构建
+label:
+  pageBuilder: 页面构建器
+  welcome: 欢迎!
+navigation:
+  noPageTitle: 没有页面标题
+notification:
+  module:
+    createFailed: 无法创建模块
+    saveFailed: 无法保存此模块
+step:
+  chart:
+    create: 制作图表
+    view: 您的图表
+  module:
+    create: 创建模块
+    view: 您的模块
+  optional: 这一步是可选的！
+  page:
+    create: 构建页面
+    view: 您的页面

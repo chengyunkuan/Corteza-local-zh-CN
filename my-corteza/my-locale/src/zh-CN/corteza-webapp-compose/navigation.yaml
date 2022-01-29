@@ -1,0 +1,20 @@
+automation: 自动化
+chart: 图表
+configuration: 配置
+editPage: 编辑页面
+help:
+  documentation: 文档
+  feedback: 发送反馈
+  forum: 帮助
+  version: 'Version:'
+module: 模块
+more: 更多
+namespace: 命名空间
+noPageTitle: 没有页面标题
+page: 页面
+userSettings:
+  changePassword: 更改密码
+  loggedInAs: 以 {{user}} 身份登录
+  logout: 注销
+  profile: 简介
+viewPage: 查看页面

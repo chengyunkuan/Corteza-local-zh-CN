@@ -1,0 +1,52 @@
+block:
+  general:
+    changeBlock: 更改现有块
+    label:
+      cancel: 取消
+      noHandle: 无句柄
+      pageBuilder: 页面构建器
+      saveAndClose: 保存并关闭
+    placeholder:
+      handle: 句柄（a - z，0 - 9，下划线，破折号）
+      sample: 示例
+    title: 添加新块
+    invalid-handle-characters: 应至少有 2 个字符长并以字母开头。只能包含字母、数字、破折号、下划线和点
+changeBlock: 更改现有块
+build:
+  addBlock: 添加块
+  selectBlockTitle: 选择新块的类型
+createLabel: 创建页面
+edit:
+  create: 创建页面
+  edit: 编辑页面
+  pageDescription: 页面描述
+  visible: 页面可见性
+import: '导入页面：'
+instructions: 拖放页面以调整顺序和层次结构。
+invalid: 配置无效
+label:
+  cancel: 取消
+  description: 描述
+  handle: 句柄
+  pageBuilder: 页面构建器
+  permissions: 权限
+  saveAndClose: 保存并关闭
+moduleEdit: 编辑模块
+navigation:
+  page: 页面
+  viewPage: 查看页面
+newPlaceholder: 页面标题
+noBlock: 尚未添加任何块
+noPages: 没有页面
+notification:
+  deleteFailed: 无法删除此页面
+  loadFailed: 无法加载页面树
+  saved: 页面已保存
+  saveFailed: 无法保存此页面
+  saveFailedRequired: 无法保存此页面，必须存在所有必需的模块字段
+notVisible: 隐藏
+pageMoveFailed: 无法移动此页面
+reordered: 页面重新排序
+title: 页面列表
+view: 视图
+visible: 可见

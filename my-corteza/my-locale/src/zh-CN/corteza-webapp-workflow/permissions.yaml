@@ -1,0 +1,44 @@
+ui:
+  reset-back: 重置回 "{{current}}"
+  save-changes: 保存更改
+  set-for: 为 {{target}} 设置权限
+
+  access:
+    allow: 允许
+    inherit: 继承
+    deny: 拒绝
+
+resources:
+  automation:
+    workflow:
+      all: 所有工作流程
+      specific: 工作流程 "{{target}}"
+      operations:
+        delete:
+          description: '默认：拒绝'
+          specific: 删除此工作流
+          title: 删除任何工作流
+        execute:
+          description: '默认：拒绝'
+          specific: 执行此工作流
+          title: 执行任何工作流程
+        read:
+          description: '默认：拒绝'
+          specific: 阅读此工作流程
+          title: 阅读任何工作流程
+        sessions.manage:
+          description: '默认：拒绝'
+          specific: 管理此工作流的会话
+          title: 管理所有会话
+        triggers.manage:
+          description: '默认：拒绝'
+          specific: 管理此工作流的触发器
+          title: 管理所有触发器
+        undelete:
+          description: '默认：拒绝'
+          specific: 取消删除此工作流程
+          title: 取消删除任何工作流程
+        update:
+          description: '默认：拒绝'
+          specific: 更新此工作流程
+          title: 更新任何工作流程 

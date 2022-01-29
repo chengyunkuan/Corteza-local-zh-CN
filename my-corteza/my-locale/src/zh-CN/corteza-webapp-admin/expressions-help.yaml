@@ -1,0 +1,123 @@
+calculate: 字段表达式提供了一种根据定义的表达式计算字段值的方法。
+categories:
+  dateTime:
+    earliest: 返回最早的日期时间
+    label: 日期和时间
+    latest: 返回最新的日期时间
+    modTime: 返回修改后的 DateTime 字符串
+    parseDuration: 返回解析的持续时间
+    parseISOTime: 返回解析后的 ISO DateTime 字符串
+    strftime: 返回指定日期和格式的 DateTime 字符串
+  general:
+    description: 返回第一个非 null 值 
+    label: 一般
+  number:
+    ceil: 将数字向上舍入到最接近的整数
+    floor: 将数字向下舍入到最接近的整数
+    label: 数字
+    max: 返回具有最高值的项目
+    min: 返回值最低的项目
+    rounds: 将浮点数四舍五入到指定的位数
+  string:
+    format: 返回格式化的字符串
+    label: 字符串
+    longest: 返回最长的字符串
+    shortest: 返回最短的字符串
+    toLower: 将所有字符转换为小写
+    toUpper: 将所有字符转换为大写
+    trim: 删除字符串开头和结尾的空格
+    trimLeft: 从字符串的开头删除字符
+    trimRight: 从字符串的末尾删除字符
+example-description: 以下是字段表达式不同用例的几个示例。
+examples: 例子
+field: 字段表达式
+formatCategories:
+  dateTime:
+    A: 返回完整的国家工作日名称
+    B: 返回完整的国家月份名称
+    C: 以十进制数返回年/100；单个数字前面有一个零
+    D: 相当于 %m/%d/%y
+    F: 相当于 %Y-%m-%d
+    H: 以十进制数 (00-23) 形式返回小时（24 小时制）
+    I: 以十进制数 (01-12) 形式返回小时（12 小时制）
+    M: 以十进制数形式返回分钟 (00-59)
+    R: 相当于 %H:%M
+    S-middle: 以十进制数返回毫秒（000-999）
+    S-second: 以十进制数形式返回秒 (00-60)
+    T: 相当于 %H:%M:%S
+    U: 以十进制数 (00-53) 形式返回一年中的周数（星期日为一周的第一天）
+    V: 以十进制数（01-53）返回一年中的周数（星期一为一周的第一天）
+    W: 以十进制数 (00-53) 形式返回一年中的周数（星期一为一周的第一天）
+    X: 返回时间的国家表示
+    "Y": 以十进制数返回以世纪为单位的年份
+    Z: 返回时区名称
+    a: 返回缩写的国家工作日名称
+    b: 返回缩写的国家月份名称
+    c: 返回时间和日期的国家表示
+    d: 以十进制数返回月份中的第几天 (01-31)
+    e: 以十进制数形式返回月份中的第几天 (1-31)
+    j: 以十进制数形式返回一年中的第几天 (001-366)
+    k: 以十进制数 (0-23) 形式返回小时（24 小时制）
+    l: 以十进制数 (1-12) 形式返回小时（12 小时制）
+    label: 日期和时间格式
+    m: 以十进制数形式返回月份 (01-12)
+    "n": |-
+      Returns a newline (
+      )
+    p: 返回“子午线”（a.m.）或“子午线后”（p.m.）的国家代表
+    percent: 返回一个 %
+    r: 相当于 %I:%M:%S %p
+    t: 返回一个 tab
+    u: 以十进制数（1-7）返回工作日（星期一为一周的第一天）
+    v: 相当于 %e-%b-%Y
+    w: 以十进制数（0-6）返回工作日（星期日为一周的第一天）
+    x: 返回日期的国家表示
+    "y": 以十进制数形式返回没有世纪的年份 (00-99)
+    z: 返回与 UTC 的时区偏移量
+  string:
+    E: 以科学计数法返回浮点数；大写 E
+    O: 返回以 0o 为前缀的 8 进制数
+    X: 返回以 16 为底的数字；大写 A-F
+    b: 返回基数为 2 的数字（二进制??格式）
+    binary: 返回带二进制指数的科学记数法中的浮点数
+    d: 返回以 10 为底的数字
+    e: 以科学计数法返回浮点数；小写e
+    f: 返回带小数点的浮点数
+    label: 字符串格式
+    o: 返回以 8 为基数的数字
+    t: 返回布尔值作为 true/false
+    v: 返回 raw value
+    x: 返回以 16 为底的数字；小写 a-f
+formatting-parameters:
+  description: 这是可用格式选项的完整列表。
+  label: 格式化参数
+helper-functions:
+  description: 我们提供了一组辅助函数来扩展字段表达式的能力。
+  label: Helper functions
+  note: '注意：只有 "General" functions 可用于所有类型的字段。其他功能仅限于它们各自的字段类型。'
+instructions: '要编写表达式，您可以使用以下运算符：'
+operators:
+  all-new-values: (所有新值)
+  comparators: '比较器： '
+  control-order: '评估的控制顺序： '
+  field-name: 字段名
+  location: '根据使用字段表达式的位置，它可以访问不同的变量：'
+  logical: '逻辑： '
+  modifiers: '编辑器: '
+  more: '更多: '
+  new: 新
+  new-value: (新值)
+  new-value-with-comma: '(新值), '
+  old: 旧
+  old-value: 旧值
+  old-value-brackets: '(旧值), '
+  record: '(记录), '
+  sanitizer: Sanitizer
+  sanitizers: 'Sanitizers: '
+  validator: 验证器
+  validators: '验证器: '
+  value: 值
+  value-expression: 值表达式
+  value-expressions: '值表达式: '
+  values: 值
+write: 写字段表达式就像写一个方程。 您不仅可以使用常量，还可以传入字段名称，它将被评估为该记录的字段值。
